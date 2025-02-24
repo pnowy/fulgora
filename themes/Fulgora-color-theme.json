@@ -2,10 +2,9 @@
   "type": "dark",
   "colors": {
     "editor.background": "#242424",
-    "editor.foreground": "#cccccc",
+    "editor.foreground": "#FFFFFF",
     "editor.selectionBackground": "#204182cc",
     "editor.lineHighlightBackground": "#ffffff0b",
-    "editor.activeLineNumber.foreground": "#cccccc",
     "editorGutter.background": "#ffffff0b",
     "titleBar.activeBackground": "#ffffff1a",
     "titleBar.inactiveBackground": "#ffffff10",
@@ -494,26 +493,291 @@
         "foreground": "#9ACD9A"
       }
     },
-	{
-		"name": "Java variable definition",
-		"scope": ["storage.type.java", "meta.definition.variable.java", "meta.class.body.java"],
-		"settings": {
-			"foreground": "#9ACD9A"
-		}
-	},
-	{
-		"name": "Java variable definition",
-		"scope": ["variable.other.definition.java", "meta.definition.variable.java", "meta.class.body.java"],
-		"settings": {
-			"foreground": "#18C0FF"
-		}
-	},
-	{
-		"name": "Java variable definition",
-		"scope": ["variable.other.object.java", "meta.method.body.java", "meta.method.java", "meta.class.body.java"],
-		"settings": {
-			"foreground": "#18C0FF"
-		}
-	}
+    {
+      "name": "Java variable definition",
+      "scope": [
+        "storage.type.java",
+        "meta.definition.variable.java",
+        "meta.class.body.java"
+      ],
+      "settings": {
+        "foreground": "#9ACD9A"
+      }
+    },
+    {
+      "name": "Java variable definition",
+      "scope": [
+        "variable.other.definition.java",
+        "meta.definition.variable.java",
+        "meta.class.body.java"
+      ],
+      "settings": {
+        "foreground": "#18C0FF"
+      }
+    },
+    {
+      "name": "Java method call",
+      "scope": ["entity.name.function.java", "meta.method-call.java"],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "Java method call",
+      "scope": [
+        "variable.other.object.java",
+        "meta.method.body.java",
+        "meta.method.java",
+        "meta.class.body.java",
+        "meta.class.java",
+        "source.java"
+      ],
+      "settings": {
+        "foreground": "#18C0FF"
+      }
+    },
+    {
+      "name": "Java method call",
+      "scope": [
+        "variable.other.object.java",
+        "meta.method-call.java",
+        "meta.method.body.java",
+        "meta.method.java",
+        "meta.class.body.java",
+        "meta.class.java",
+        "source.java"
+      ],
+      "settings": {
+        "foreground": "#18C0FF"
+      }
+    },
+    {
+      "name": "Java method call",
+      "scope": [
+        "entity.name.function.java",
+        "meta.method-call.java",
+        "meta.method.body.java",
+        "meta.method.java",
+        "meta.class.body.java",
+        "meta.class.java",
+        "source.java",
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "Java function call brackets",
+      "scope": [
+        "punctuation.definition.parameters.begin.bracket.round.java",
+        "meta.method-call.java",
+        "meta.method.body.java",
+        "meta.method.java",
+        "meta.class.body.java",
+        "meta.class.java",
+        "source.java"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "Java function call brackets",
+      "scope": [
+        "punctuation.section.method.begin.bracket.curly.java",
+        "meta.method.java",
+        "meta.class.body.java",
+        "meta.class.java",
+        "source.java",
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "Java return type",
+      "scope": [
+        "storage.type.generic.java",
+        "meta.method.return-type.java",
+        "meta.method.java",
+        "meta.class.body.java",
+        "meta.class.java",
+        "source.java"
+      ],
+      "settings": {
+        "foreground": "#9ACD9A"
+      }
+    },
+    {
+      "name": "Java variable parameter",
+      "scope": [
+        "variable.parameter.java",
+        "meta.method.identifier.java",
+        "meta.method.java",
+        "meta.class.body.java",
+        "meta.class.java",
+        "source.java"
+      ],
+      "settings": {
+        "foreground": "#18C0FF"
+      }
+    },
+    {
+      "name": "JSON property",
+      "scope": [
+        "support.type.property-name.json",
+        "string.json",
+        "meta.structure.dictionary.json",
+        "source.json",
+      ],
+      "settings": {
+        "foreground": "#D0D0FF"
+      }
+    },
+    {
+      "name": "YAML keyword",
+      "scope": [
+        "entity.name.tag.yaml",
+      ],
+      "settings": {
+        "foreground": "#FFA500"
+      }
+    },
+    {
+      "name": "YAML keyword",
+      "scope": [
+        "string.unquoted.plain.out.yaml"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "Object literal",
+      "scope": [
+        "meta.object-literal.key.ts",
+        "meta.object.member.ts",
+        "meta.objectliteral.ts",
+        "meta.var.expr.ts",
+        "meta.block.ts",
+        "meta.arrow.ts",
+        "meta.var.expr.ts",
+        "source.ts",
+      ],
+      "settings": {
+        "foreground": "#D0D0FF"
+      }
+    },
+    {
+      "name": "Entity name function",
+      "scope": [
+        "entity.name.function.ts",
+        "meta.object-literal.key.ts",
+        "meta.object.member.ts",
+        "meta.objectliteral.ts",
+        "meta.array.literal.ts",
+        "meta.object.member.ts",
+        "meta.objectliteral.ts",
+        "meta.var.expr.ts",
+        "meta.block.ts",
+        "meta.arrow.ts",
+        "meta.var.expr.ts",
+        "source.ts",
+      ],
+      "settings": {
+        "foreground": "#18C0FF"
+      }
+    },
+    {
+      "name": "TS function",
+      "scope": [
+        "entity.name.function.ts",
+        "variable.other.constant.ts",
+        "meta.definition.variable.ts",
+        "meta.var-single-variable.expr.ts",
+        "meta.var.expr.ts",
+        "source.ts"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "TS interface",
+      "scope": [
+        "entity.name.type.interface.ts",
+        "meta.interface.ts",
+        "source.ts",
+      ],
+      "settings": {
+        "foreground": "#A1FF00"
+      }
+    },
+    {
+      "name": "TS interface property",
+      "scope": [
+        "variable.object.property.ts",
+        "meta.definition.property.ts",
+        "meta.field.declaration.ts",
+        "meta.interface.ts",
+        "source.ts",
+      ],
+      "settings": {
+        "foreground": "#D0D0FF"
+      }
+    },
+    {
+      "name": "TS type primitive",
+      "scope": [
+        "support.type.primitive.ts",
+        "meta.type.annotation.ts",
+        "meta.field.declaration.ts",
+        "meta.interface.ts",
+        "source.ts",
+      ],
+      "settings": {
+        "foreground": "#FFA500"
+      }
+    },
+    {
+      "name": "TS entity name type",
+      "scope": [
+        "entity.name.type.ts",
+        "meta.type.annotation.ts",
+        "meta.field.declaration.ts",
+        "meta.interface.ts",
+        "source.ts",
+      ],
+      "settings": {
+        "foreground": "#A1FF00"
+      }
+    },
+    {
+      "name": "HTML entity name tag",
+      "scope": [
+        "entity.name.tag.html",
+      ],
+      "settings": {
+        "foreground": "#FFA500"
+      }
+    },
+    {
+      "name": "HTML entity name tag",
+      "scope": [
+        "entity.other.attribute-name.html",
+      ],
+      "settings": {
+        "foreground": "#D0D0FF"
+      }
+    },
+    {
+      "name": "HTML text",
+      "scope": [
+        "text.html.derivative",
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
   ]
 }
