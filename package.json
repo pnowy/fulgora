@@ -2,7 +2,7 @@
   "name": "fulgora",
   "displayName": "Fulgora",
   "description": "Fulgora Color Theme!",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.97.0"
   },
@@ -12,9 +12,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Fulgora",
+        "label": "fulgora",
         "uiTheme": "vs-dark",
-        "path": "./themes/Fulgora-color-theme.json"
+        "path": "./themes/fulgora-color-theme.json"
       }
     ]
   }

@@ -1,4 +1,4 @@
-# fulgora README
+# Fulgora Visual Studio Code theme
 
 ## Working with Markdown
 
