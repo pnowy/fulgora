@@ -1,9 +1,8 @@
 {
+  "name": "Fulgora Dark",
   "type": "dark",
-  /** 
-   * UI COLORS
-   * These colors define the editor interface elements
-   */
+  // UI COLORS
+  // These colors define the editor interface elements
   "colors": {
     "editor.background": "#242424",
     "editor.foreground": "#FFFFFF",
@@ -27,15 +26,11 @@
     "activityBar.background": "#ffffff1a",
     "activityBarBadge.background": "#007acc"
   },
-  /** 
-   * TOKEN COLORS
-   * These define syntax highlighting for code elements
-   */
+  // TOKEN COLORS
+  // These define syntax highlighting for code elements
   "tokenColors": [
-    /**
-     * GENERAL SYNTAX HIGHLIGHTING
-     * Basic language elements common across languages
-     */
+    // GENERAL SYNTAX HIGHLIGHTING
+    // Basic language elements common across languages
     {
       "name": "Comment",
       "scope": "comment",
@@ -145,7 +140,7 @@
       "name": "Variable, Property",
       "scope": "variable.property,variable.other.property,variable.other.object.property,variable.object.property,support.variable.property",
       "settings": {
-        "foreground": "#9E7BB0"
+        "foreground": "#D0D0FF"
       }
     },
     {
@@ -180,7 +175,7 @@
       "name": "Object Keys",
       "scope": "meta.object-literal.key",
       "settings": {
-        "foreground": "#9E7BB0"
+        "foreground": "#D0D0FF"
       }
     },
     {
@@ -488,10 +483,8 @@
         "foreground": "#FFA500"
       }
     },
-    /**
-     * JAVA SPECIFIC HIGHLIGHTS
-     * Rules for Java language syntax
-     */
+    // JAVA SPECIFIC HIGHLIGHTS
+    // Rules for Java language syntax
     {
       "name": "Java related - Simplify overlapping definitions",
       "scope": [
@@ -605,10 +598,8 @@
         "foreground": "#61FDFF"
       }
     },
-    /**
-     * JSON, YAML AND CONFIG LANGUAGES
-     * Rules for data languages and configuration files
-     */
+    // JSON, YAML AND CONFIG LANGUAGES
+    // Rules for data languages and configuration files
     {
       "name": "JSON property",
       "scope": [
@@ -758,10 +749,53 @@
         "foreground": "#A1FF00"
       }
     },
-    /**
-     * HTML AND MARKUP LANGUAGES
-     * Rules for HTML and other markup languages
-     */
+    {
+      "name": "JS variable",
+      "scope": [
+        "entity.name.function.js",
+        "meta.definition.function.js",
+        "meta.function.js",
+        "meta.block.js",
+        "meta.function.js",
+        "source.js",
+      ],
+      "settings": {
+        "foreground": "#E6B531"
+      }
+    },
+    {
+      "name": "JS variable",
+      "scope": [
+        "variable.other.readwrite.js",
+        "meta.definition.variable.js",
+        "meta.var-single-variable.expr.js",
+        "meta.var.expr.js",
+        "meta.block.js",
+        "meta.function.js",
+        "meta.block.js",
+        "meta.function.js",
+        "source.js",
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "JS variable",
+      "scope": [
+        "variable.language.arguments.js",
+        "meta.block.js",
+        "meta.function.js",
+        "meta.block.js",
+        "meta.function.js",
+        "source.js",
+      ],
+      "settings": {
+        "foreground": "#18C0FF"
+      }
+    },
+    // HTML AND MARKUP LANGUAGES
+    // Rules for HTML and other markup languages
     {
       "name": "HTML entity name tag",
       "scope": [
@@ -819,12 +853,10 @@
         "foreground": "#18C0FF"
       }
     },
-    /**
-     * TERRAFORM AND HCL
-     * Rules for Terraform and HashiCorp Configuration Language
-     */
+    // TERRAFORM AND HCL
+    // Rules for Terraform and HashiCorp Configuration Language
     {
-      "name": "Terraform resources, data and provider definisions",
+      "name": "Terraform resources, data and provider definitions",
       "scope": [
         "entity.name.type.hcl",
         "entity.name.type.terraform",
@@ -858,10 +890,8 @@
         "foreground": "#D0D0FF"
       }
     },
-    /**
-     * PYTHON
-     * Rules for Python
-     */
+    // PYTHON
+    // Rules for Python
     {
       "name": "Python function call",
       "scope": [
@@ -906,10 +936,8 @@
         "foreground": "#FFFFFF"
       }
     },
-    /**
-     * CONSOLIDATED COLOR PATTERNS
-     * Groups of tokens that share the same color for easier maintenance
-     */
+    // CONSOLIDATED COLOR PATTERNS
+    // Groups of tokens that share the same color for easier maintenance
     {
       "name": "Orange highlights",
       "scope": [
@@ -937,7 +965,6 @@
         "variable.other.definition.java",
         "variable.parameter.java",
         "variable.other.object.ts",
-        "entity.name.function.ts"
       ],
       "settings": {
         "foreground": "#18C0FF"
