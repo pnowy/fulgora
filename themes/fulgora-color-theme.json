@@ -1,5 +1,9 @@
 {
   "type": "dark",
+  /** 
+   * UI COLORS
+   * These colors define the editor interface elements
+   */
   "colors": {
     "editor.background": "#242424",
     "editor.foreground": "#FFFFFF",
@@ -23,7 +27,15 @@
     "activityBar.background": "#ffffff1a",
     "activityBarBadge.background": "#007acc"
   },
+  /** 
+   * TOKEN COLORS
+   * These define syntax highlighting for code elements
+   */
   "tokenColors": [
+    /**
+     * GENERAL SYNTAX HIGHLIGHTING
+     * Basic language elements common across languages
+     */
     {
       "name": "Comment",
       "scope": "comment",
@@ -476,8 +488,12 @@
         "foreground": "#FFA500"
       }
     },
+    /**
+     * JAVA SPECIFIC HIGHLIGHTS
+     * Rules for Java language syntax
+     */
     {
-      "name": "Java annotations",
+      "name": "Java related - Simplify overlapping definitions",
       "scope": [
         "storage.type.annotation.java",
         "meta.declaration.annotation.java"
@@ -516,79 +532,38 @@
       }
     },
     {
-      "name": "Java method call",
-      "scope": ["entity.name.function.java", "meta.method-call.java"],
-      "settings": {
-        "foreground": "#FFFFFF"
-      }
-    },
-    {
-      "name": "Java method call",
+      "name": "Java parameters",
       "scope": [
-        "variable.other.object.java",
-        "meta.method.body.java",
-        "meta.method.java",
-        "meta.class.body.java",
-        "meta.class.java",
-        "source.java"
+        "variable.parameter.java"
       ],
       "settings": {
         "foreground": "#18C0FF"
       }
     },
     {
-      "name": "Java method call",
-      "scope": [
-        "variable.other.object.java",
-        "meta.method-call.java",
-        "meta.method.body.java",
-        "meta.method.java",
-        "meta.class.body.java",
-        "meta.class.java",
-        "source.java"
-      ],
-      "settings": {
-        "foreground": "#18C0FF"
-      }
-    },
-    {
-      "name": "Java method call",
+      "name": "Java method calls and functions",
       "scope": [
         "entity.name.function.java",
-        "meta.method-call.java",
-        "meta.method.body.java",
-        "meta.method.java",
-        "meta.class.body.java",
-        "meta.class.java",
-        "source.java",
+        "meta.method-call.java"
       ],
       "settings": {
         "foreground": "#FFFFFF"
       }
     },
     {
-      "name": "Java function call brackets",
+      "name": "Java object references",
+      "scope": [
+        "variable.other.object.java"
+      ],
+      "settings": {
+        "foreground": "#18C0FF"
+      }
+    },
+    {
+      "name": "Java brackets",
       "scope": [
         "punctuation.definition.parameters.begin.bracket.round.java",
-        "meta.method-call.java",
-        "meta.method.body.java",
-        "meta.method.java",
-        "meta.class.body.java",
-        "meta.class.java",
-        "source.java"
-      ],
-      "settings": {
-        "foreground": "#FFFFFF"
-      }
-    },
-    {
-      "name": "Java function call brackets",
-      "scope": [
-        "punctuation.section.method.begin.bracket.curly.java",
-        "meta.method.java",
-        "meta.class.body.java",
-        "meta.class.java",
-        "source.java",
+        "punctuation.section.method.begin.bracket.curly.java"
       ],
       "settings": {
         "foreground": "#FFFFFF"
@@ -609,19 +584,31 @@
       }
     },
     {
-      "name": "Java variable parameter",
+      "name": "Java enum",
       "scope": [
-        "variable.parameter.java",
-        "meta.method.identifier.java",
-        "meta.method.java",
-        "meta.class.body.java",
-        "meta.class.java",
+        "entity.name.type.enum.java",
+        "meta.enum.java",
         "source.java"
       ],
       "settings": {
-        "foreground": "#18C0FF"
+        "foreground": "#9ACD9A"
       }
     },
+    {
+      "name": "Java enum constant",
+      "scope": [
+        "constant.other.enum.java",
+        "meta.enum.java",
+        "source.java"
+      ],
+      "settings": {
+        "foreground": "#61FDFF"
+      }
+    },
+    /**
+     * JSON, YAML AND CONFIG LANGUAGES
+     * Rules for data languages and configuration files
+     */
     {
       "name": "JSON property",
       "scope": [
@@ -689,6 +676,25 @@
       }
     },
     {
+      "name": "TypeScript functions and methods",
+      "scope": [
+        "entity.name.function.ts"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "TypeScript objects and properties",
+      "scope": [
+        "variable.other.object.ts",
+        "variable.other.property.ts"
+      ],
+      "settings": {
+        "foreground": "#D0D0FF"
+      }
+    },
+    {
       "name": "TS function",
       "scope": [
         "entity.name.function.ts",
@@ -752,6 +758,10 @@
         "foreground": "#A1FF00"
       }
     },
+    /**
+     * HTML AND MARKUP LANGUAGES
+     * Rules for HTML and other markup languages
+     */
     {
       "name": "HTML entity name tag",
       "scope": [
@@ -809,6 +819,10 @@
         "foreground": "#18C0FF"
       }
     },
+    /**
+     * TERRAFORM AND HCL
+     * Rules for Terraform and HashiCorp Configuration Language
+     */
     {
       "name": "Terraform resources, data and provider definisions",
       "scope": [
@@ -844,5 +858,90 @@
         "foreground": "#D0D0FF"
       }
     },
+    /**
+     * PYTHON
+     * Rules for Python
+     */
+    {
+      "name": "Python function call",
+      "scope": [
+        "meta.function-call.generic.python",
+        "meta.function-call.python",
+        "meta.member.access.python",
+        "source.python",
+      ],
+      "settings": {
+        "foreground": "#FFCC33"
+      }
+    },
+    {
+      "name": "Python default",
+      "scope": [
+        "entity.name.function.python",
+        "meta.function.python",
+        "source.python",
+      ],
+      "settings": {
+        "foreground": "#E6B531"
+      }
+    },
+    {
+      "name": "Python type",
+      "scope": [
+        "support.type.python",
+        "meta.function-call.arguments.python",
+        "meta.function-call.python",
+        "source.python",
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "Python default",
+      "scope": [
+        "source.python",
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    /**
+     * CONSOLIDATED COLOR PATTERNS
+     * Groups of tokens that share the same color for easier maintenance
+     */
+    {
+      "name": "Orange highlights",
+      "scope": [
+        "keyword",
+        "keyword.operator.new",
+        "keyword.operator.delete",
+        "keyword.operator.static",
+        "keyword.operator.this",
+        "keyword.operator.expression",
+        "storage",
+        "storage.type",
+        "storage.modifier",
+        "storage.arrow",
+        "entity.name.tag",
+        "support.type.primitive.ts",
+        "entity.name.type.terraform"
+      ],
+      "settings": {
+        "foreground": "#FFA500"
+      }
+    },
+    {
+      "name": "Light blue highlights",
+      "scope": [
+        "variable.other.definition.java",
+        "variable.parameter.java",
+        "variable.other.object.ts",
+        "entity.name.function.ts"
+      ],
+      "settings": {
+        "foreground": "#18C0FF"
+      }
+    }
   ]
 }
