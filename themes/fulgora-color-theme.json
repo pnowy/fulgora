@@ -809,5 +809,40 @@
         "foreground": "#18C0FF"
       }
     },
+    {
+      "name": "Terraform resources, data and provider definisions",
+      "scope": [
+        "entity.name.type.hcl",
+        "entity.name.type.terraform",
+        "meta.block.hcl",
+        "source.hcl.terraform",
+      ],
+      "settings": {
+        "foreground": "#FFA500"
+      }
+    },
+    {
+      "name": "Terraform resource type",
+      "scope": [
+        "variable.other.enummember.hcl",
+        "meta.block.hcl",
+        "source.hcl.terraform",
+      ],
+      "settings": {
+        "foreground": "#A1FF00"
+      }
+    },
+    {
+      "name": "Terraform resource type",
+      "scope": [
+        "variable.other.readwrite.hcl",
+        "variable.declaration.hcl",
+        "meta.block.hcl",
+        "source.hcl.terraform",
+      ],
+      "settings": {
+        "foreground": "#D0D0FF"
+      }
+    },
   ]
 }
