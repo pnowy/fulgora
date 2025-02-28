@@ -73,7 +73,7 @@ jobs:
           commit_message: 'chore(release): update CHANGELOG.md for ${{ github.ref_name }} [skip ci]'
           file_pattern: CHANGELOG.md package.json
           commit_user_name: GitHub Actions Bot
-          commit_author: GitHub
+          commit_author: GitHub <github.actions@users.noreply.github.com>
 
       - name: Create Github release
         uses: softprops/action-gh-release@v2
