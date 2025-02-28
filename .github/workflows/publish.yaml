@@ -21,7 +21,7 @@ jobs:
         id: git-cliff
         with:
           config: cliff.toml
-          args: -vv --latest --no-exec --github-repo ${{ github.repository }}
+          args: --verbose --latest --github-repo ${{ github.repository }}
   publish:
     name: Publish
     runs-on: ubuntu-latest
@@ -43,21 +43,28 @@ jobs:
           echo $RELEASE_VERSION
           npm version --no-git-tag-version $RELEASE_VERSION
           cat package.json
+#      - name: Commit
+#        run: |
+#          git checkout testing
+#          git config user.name 'github-actions[bot]'
+#          git config user.email 'github-actions[bot]@users.noreply.github.com'
+#          set +e
+#          git add CHANGELOG.md
+#          git add package.json
+#          git commit -m "chore(release): prepare for $RELEASE_VERSION"
+#          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git testing
+      - name: Commit CHANGELOG.md
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          branch: testing
+          commit_message: 'chore(release): update CHANGELOG.md for ${{ github.ref_name }} [skip ci]'
+          file_pattern: CHANGELOG.md package.json
       - name: Release
         uses: softprops/action-gh-release@v2
         if: startsWith(github.ref, 'refs/tags/')
         with:
           body: "${{ needs.generate-changelog.outputs.release_body }}"
-          name: "Release v${{ env.RELEASE_VERSION }}"
-      - name: Commit
-        run: |
-          git checkout testing
-          git config user.name 'github-actions[bot]'
-          git config user.email 'github-actions[bot]@users.noreply.github.com'
-          set +e
-          git add CHANGELOG.md
-          git commit -m "Update changelog"
-          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git testing
+          name: "Release v${{ env.RELEASE_VERSION }} 🐾"
       # - name: Publish to Visual Studio Marketplace
       #   uses: HaaLeo/publish-vscode-extension@v2
       #   with:
