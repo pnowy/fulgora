@@ -9,6 +9,7 @@ permissions:
 
 jobs:
   release:
+    name: Update package version and publish to Visual Studio Marketplace
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -24,11 +25,16 @@ jobs:
           echo $VERSION
           npm version --no-git-tag-version $VERSION
           cat package.json
-      # - name: Generate/update CHANGELOG.md
-      #   uses: TriPSs/conventional-changelog-action@v5
-      #   with:
-      #     github-token: ${{ secrets.GITHUB_TOKEN }}
-      #     version: ${{ env.VERSION }}
+      - name: Generate/update CHANGELOG.md
+        uses: TriPSs/conventional-changelog-action@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          version: ${{ env.VERSION }}
+          git-push: false
+          #git-branch: testing
+      - name: Display CHANGELOG.md
+        run: |
+          cat CHANGELOG.md
       # - name: Commit version bump
       #   run: |
       #     git config --global user.name "github-actions"
