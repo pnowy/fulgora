@@ -1,12 +1,16 @@
 name: Publish
 
+#on:
+#  push:
+#    tags:
+#      - "*"
 on:
   release:
     types: [published]
 
 jobs:
   release:
-    name: Update package version and publish to Visual Studio Marketplace
+    name: Publish version
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -31,29 +35,19 @@ jobs:
         uses: orhun/git-cliff-action@v4
         with:
           config: cliff.toml
-          args: --verbose
+          args: --verbose --github-repo ${{ github.repository }}
         env:
           OUTPUT: CHANGELOG.md
           GITHUB_REPO: ${{ github.repository }}
-      - name: Display CHANGELOG.md
-        run: |
-          cat CHANGELOG.md
 #      - name: Commit
 #        run: |
-#          git checkout <branch>
+#          git checkout testing
 #          git config user.name 'github-actions[bot]'
 #          git config user.email 'github-actions[bot]@users.noreply.github.com'
 #          set +e
 #          git add CHANGELOG.md
 #          git commit -m "Update changelog"
-#          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git <branch>
-
-      # - name: Commit version bump
-      #   run: |
-      #     git config --global user.name "github-actions"
-      #     git config --global user.email "github-actions@github.com"
-      #     git commit -am "chore: bump version to $VERSION"
-      #     git push
+#          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git testing
       # - name: Publish to Visual Studio Marketplace
       #   uses: HaaLeo/publish-vscode-extension@v2
       #   with:
