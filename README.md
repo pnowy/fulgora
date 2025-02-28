@@ -4,7 +4,7 @@ A theme extension for [Visual Studio Code](https://code.visualstudio.com/) mosty
 
 ## Screenshots
 
-![YAML](screenshots/typescript.png)
+![YAML](screenshots/yaml.png)
 
 ![Typescript](screenshots/typescript.png)
 
