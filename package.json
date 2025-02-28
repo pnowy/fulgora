@@ -28,7 +28,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "fulgora",
+        "label": "Fulgora",
         "uiTheme": "vs-dark",
         "path": "./themes/fulgora-color-theme.json"
       }
