@@ -61,7 +61,7 @@ jobs:
           cat package.json
       - name: Update CHANGELOG.md file
         run: |
-          ${{ needs.generate-full-changelog.outputs.release_body }} > CHANGELOG.md
+          "${{ needs.generate-full-changelog.outputs.release_body }}" > CHANGELOG.md
       - name: Commit CHANGELOG.md
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
