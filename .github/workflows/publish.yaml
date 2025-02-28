@@ -1,11 +1,14 @@
-on:
-  push:
-    tags:
-      - "*"
+name: Publish
 
-name: Publish extension
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
 jobs:
-  deploy:
+  release:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -13,8 +16,27 @@ jobs:
         with:
           node-version: 20
       - run: npm ci
-      - name: Publish to Visual Studio Marketplace
-        uses: HaaLeo/publish-vscode-extension@v2
-        with:
-          pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
-          registryUrl: https://marketplace.visualstudio.com
+      - name: Extract version from GitHub Release
+        id: version
+        run: echo "VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
+      - name: Update package.json version
+        run: |
+          echo $VERSION
+          npm version --no-git-tag-version $VERSION
+          cat package.json
+      # - name: Generate/update CHANGELOG.md
+      #   uses: TriPSs/conventional-changelog-action@v5
+      #   with:
+      #     github-token: ${{ secrets.GITHUB_TOKEN }}
+      #     version: ${{ env.VERSION }}
+      # - name: Commit version bump
+      #   run: |
+      #     git config --global user.name "github-actions"
+      #     git config --global user.email "github-actions@github.com"
+      #     git commit -am "chore: bump version to $VERSION"
+      #     git push
+      # - name: Publish to Visual Studio Marketplace
+      #   uses: HaaLeo/publish-vscode-extension@v2
+      #   with:
+      #     pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
+      #     registryUrl: https://marketplace.visualstudio.com
