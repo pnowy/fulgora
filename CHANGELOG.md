@@ -1,6 +1,6 @@
 # Fulgora theme changelog
 
-## v0.1.0
+## 0.1.0
 
 - Initial release
 - Base languages support (Java, Typescript, Javascript, Python)
