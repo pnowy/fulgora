@@ -4,15 +4,17 @@ on:
   release:
     types: [published]
 
-permissions:
-  contents: write
-
 jobs:
   release:
     name: Update package version and publish to Visual Studio Marketplace
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -25,15 +27,27 @@ jobs:
           echo $VERSION
           npm version --no-git-tag-version $VERSION
           cat package.json
-      - name: Generate/update CHANGELOG.md
-        uses: TriPSs/conventional-changelog-action@v6
+      - name: Generate changelog
+        uses: orhun/git-cliff-action@v4
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          git-push: false
-          #git-branch: testing
+          config: cliff.toml
+          args: --verbose
+        env:
+          OUTPUT: CHANGELOG.md
+          GITHUB_REPO: ${{ github.repository }}
       - name: Display CHANGELOG.md
         run: |
           cat CHANGELOG.md
+#      - name: Commit
+#        run: |
+#          git checkout <branch>
+#          git config user.name 'github-actions[bot]'
+#          git config user.email 'github-actions[bot]@users.noreply.github.com'
+#          set +e
+#          git add CHANGELOG.md
+#          git commit -m "Update changelog"
+#          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git <branch>
+
       # - name: Commit version bump
       #   run: |
       #     git config --global user.name "github-actions"
