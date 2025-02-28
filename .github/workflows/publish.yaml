@@ -29,7 +29,6 @@ jobs:
         uses: TriPSs/conventional-changelog-action@v6
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          version: ${{ env.VERSION }}
           git-push: false
           #git-branch: testing
       - name: Display CHANGELOG.md
