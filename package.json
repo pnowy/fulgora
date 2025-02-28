@@ -2,14 +2,15 @@
   "name": "fulgora",
   "displayName": "Fulgora",
   "description": "Fulgora Color Theme!",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "icon": "assets/icon.png",
   "publisher": "pnowy",
   "repository": {
     "type": "git",
     "url": "https://github.com/pnowy/fulgora"
   },
   "engines": {
-    "vscode": "^1.97.0"
+    "vscode": "^1.8.0"
   },
   "categories": [
     "Themes"
@@ -27,7 +28,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "fulgora",
+        "label": "Fulgora",
         "uiTheme": "vs-dark",
         "path": "./themes/fulgora-color-theme.json"
       }
