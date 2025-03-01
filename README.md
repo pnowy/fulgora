@@ -16,6 +16,6 @@ See [CHANGELOG.md](CHANGELOG.md)
 
 ## Intellij IDEA color scheme
 
-If you are looking Intellij IDEA thema you will find it on this [VS Code theme plugin](https://github.com/pnowy/fulgora/blob/main/fulgora.icls).
+If you are looking Intellij IDEA color schema you will find it on this [VS Code theme plugin](https://github.com/pnowy/fulgora/blob/main/fulgora.icls) repository.
 
 **Enjoy!**
