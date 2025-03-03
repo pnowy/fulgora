@@ -1,3 +1,22 @@
+## [0.2.1](https://github.com/pnowy/fulgora/compare/v0.2.0..v0.2.1) - 2025-03-03
+
+### ⛰️  Features
+
+- Add YAML constant color settings to fulgora color theme - ([8a79eca](https://github.com/pnowy/fulgora/commit/8a79eca5ad7766d06ef5cc2f76cd99492c04f5ce))
+
+### 📚 Documentation
+
+- Correct spelling in README.md for Intellij IDEA color scheme - ([4c669a7](https://github.com/pnowy/fulgora/commit/4c669a72d8364d6f88a87d8c3c42c2b2737d7706))
+- Update README.md - add link to intellij theme - ([0ad2798](https://github.com/pnowy/fulgora/commit/0ad279866d43e9c4a0e24fd4f66fd7be60582ded))
+
+### ⚙️ Miscellaneous Tasks
+
+- Remove vsc-extension-quickstart.md and update .vscodeignore - ([5b91299](https://github.com/pnowy/fulgora/commit/5b91299336b8286d80079776ca426dbdca421e69))
+
+## New Contributors ❤️
+
+* @ made their first contribution
+
 ## [0.2.0](https://github.com/pnowy/fulgora/compare/0.1.0..v0.2.0) - 2025-02-28
 
 ### ⛰️  Features
