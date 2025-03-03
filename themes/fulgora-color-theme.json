@@ -291,6 +291,16 @@
       }
     },
     {
+      "name": "YAML constant",
+      "scope": [
+        "constant.language.boolean.yaml",
+        "source.yaml"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
       "name": "Ignored (Exceptions Rules)",
       "scope": "meta.brace.square.ts,block.support.module,block.support.type.module,block.support.function.variable,punctuation.definition.typeparameters.begin,punctuation.definition.typeparameters.end",
       "settings": {
