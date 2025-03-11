@@ -1,3 +1,14 @@
+## [0.3.0](https://github.com/pnowy/fulgora/compare/v0.2.1..v0.3.0) - 2025-03-11
+
+### ⛰️  Features
+
+- Add step to publish to Open VSX Registry in workflow - ([a9f0e56](https://github.com/pnowy/fulgora/commit/a9f0e56dba32aa99994e658c1ab178f51d70b12f))
+
+### ⚙️ Miscellaneous Tasks
+
+- Remove release drafter configuration files - ([7a774ed](https://github.com/pnowy/fulgora/commit/7a774ed6c2713a8af983efce894d3604ad208713))
+
+
 ## [0.2.1](https://github.com/pnowy/fulgora/compare/v0.2.0..v0.2.1) - 2025-03-03
 
 ### ⛰️  Features
