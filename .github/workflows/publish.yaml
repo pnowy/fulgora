@@ -62,7 +62,7 @@ jobs:
       - name: Update package.json version
         run: |
           echo $RELEASE_VERSION
-          npm version --no-git-tag-version $RELEASE_VERSION
+          npm version --no-git-tag-version --allow-same-version $RELEASE_VERSION
           cat package.json
       - name: Save release notes to CHANGELOG.md
         run: echo "${{ needs.generate-full-changelog.outputs.release_body }}" > CHANGELOG.md
