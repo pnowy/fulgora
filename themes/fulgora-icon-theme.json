@@ -1,0 +1,311 @@
+{
+  "iconDefinitions": {
+    "folder": {
+      "iconPath": "../icons/folder.svg"
+    },
+    "folderGithub": {
+      "iconPath": "../icons/folderGithub.svg"
+    },
+    "file": {
+      "iconPath": "../icons/file.svg"
+    },
+    "maven": {
+      "iconPath": "../icons/maven.svg"
+    },
+    "kotlin": {
+      "iconPath": "../icons/kotlin.svg"
+    },
+    "python": {
+      "iconPath": "../icons/python.svg"
+    },
+    "go": {
+      "iconPath": "../icons/go.svg"
+    },
+    "rust": {
+      "iconPath": "../icons/rust.svg"
+    },
+    "ruby": {
+      "iconPath": "../icons/ruby.svg"
+    },
+    "php": {
+      "iconPath": "../icons/php.svg"
+    },
+    "scala": {
+      "iconPath": "../icons/scala.svg"
+    },
+    "archive": {
+      "iconPath": "../icons/archive.svg"
+    },
+    "bazel": {
+      "iconPath": "../icons/bazel.svg"
+    },
+    "c": {
+      "iconPath": "../icons/c.svg"
+    },
+    "config": {
+      "iconPath": "../icons/config.svg"
+    },
+    "cpp": {
+      "iconPath": "../icons/cpp.svg"
+    },
+    "Csharp": {
+      "iconPath": "../icons/Csharp.svg"
+    },
+    "css": {
+      "iconPath": "../icons/css.svg"
+    },
+    "csv": {
+      "iconPath": "../icons/csv.svg"
+    },
+    "docker": {
+      "iconPath": "../icons/docker.svg"
+    },
+    "editorConfig": {
+      "iconPath": "../icons/editorConfig.svg"
+    },
+    "font": {
+      "iconPath": "../icons/font.svg"
+    },
+    "gradle": {
+      "iconPath": "../icons/gradle.svg"
+    },
+    "graphql": {
+      "iconPath": "../icons/graphql.svg"
+    },
+    "groovy": {
+      "iconPath": "../icons/groovy.svg"
+    },
+    "h": {
+      "iconPath": "../icons/h.svg"
+    },
+    "html": {
+      "iconPath": "../icons/html.svg"
+    },
+    "ignored": {
+      "iconPath": "../icons/ignored.svg"
+    },
+    "image": {
+      "iconPath": "../icons/image.svg"
+    },
+    "java": {
+      "iconPath": "../icons/java.svg"
+    },
+    "javaClass": {
+      "iconPath": "../icons/javaClass.svg"
+    },
+    "javaScript": {
+      "iconPath": "../icons/javaScript.svg"
+    },
+    "json": {
+      "iconPath": "../icons/json.svg"
+    },
+    "jupyter": {
+      "iconPath": "../icons/jupyter.svg"
+    },
+    "markdown": {
+      "iconPath": "../icons/markdown.svg"
+    },
+    "patch": {
+      "iconPath": "../icons/patch.svg"
+    },
+    "perl": {
+      "iconPath": "../icons/perl.svg"
+    },
+    "properties": {
+      "iconPath": "../icons/properties.svg"
+    },
+    "regexp": {
+      "iconPath": "../icons/regexp.svg"
+    },
+    "rst": {
+      "iconPath": "../icons/rst.svg"
+    },
+    "shell": {
+      "iconPath": "../icons/shell.svg"
+    },
+    "sql": {
+      "iconPath": "../icons/sql.svg"
+    },
+    "swiftLang": {
+      "iconPath": "../icons/swiftLang.svg"
+    },
+    "terraform": {
+      "iconPath": "../icons/terraform.svg"
+    },
+    "text": {
+      "iconPath": "../icons/text.svg"
+    },
+    "toml": {
+      "iconPath": "../icons/toml.svg"
+    },
+    "typeScript": {
+      "iconPath": "../icons/typeScript.svg"
+    },
+    "xml": {
+      "iconPath": "../icons/xml.svg"
+    },
+    "yaml": {
+      "iconPath": "../icons/yaml.svg"
+    }
+  },
+  "folder": "folder",
+  "folderExpanded": "folder",
+  "rootFolder": "folder",
+  "rootFolderExpanded": "folder",
+  "file": "file",
+  "folderNames": {
+    ".github": "folderGithub"
+  },
+  "folderNamesExpanded": {
+    ".github": "folderGithub"
+  },
+  "fileExtensions": {
+    "zip": "archive",
+    "tar": "archive",
+    "gz": "archive",
+    "tgz": "archive",
+    "bz2": "archive",
+    "xz": "archive",
+    "7z": "archive",
+    "rar": "archive",
+    "jar": "archive",
+    "war": "archive",
+    "bzl": "bazel",
+    "bazel": "bazel",
+    "c": "c",
+    "ini": "config",
+    "cfg": "config",
+    "conf": "config",
+    "env": "config",
+    "cpp": "cpp",
+    "cc": "cpp",
+    "cxx": "cpp",
+    "hpp": "cpp",
+    "hh": "cpp",
+    "cs": "Csharp",
+    "css": "css",
+    "scss": "css",
+    "sass": "css",
+    "less": "css",
+    "csv": "csv",
+    "tsv": "csv",
+    "dockerfile": "docker",
+    "ttf": "font",
+    "otf": "font",
+    "woff": "font",
+    "woff2": "font",
+    "eot": "font",
+    "graphql": "graphql",
+    "gql": "graphql",
+    "groovy": "groovy",
+    "gradle": "gradle",
+    "gradle.kts": "gradle",
+    "h": "h",
+    "html": "html",
+    "htm": "html",
+    "xhtml": "html",
+    "vue": "html",
+    "png": "image",
+    "jpg": "image",
+    "jpeg": "image",
+    "gif": "image",
+    "svg": "image",
+    "webp": "image",
+    "ico": "image",
+    "bmp": "image",
+    "java": "java",
+    "class": "javaClass",
+    "js": "javaScript",
+    "jsx": "javaScript",
+    "mjs": "javaScript",
+    "cjs": "javaScript",
+    "json": "json",
+    "jsonc": "json",
+    "json5": "json",
+    "ipynb": "jupyter",
+    "md": "markdown",
+    "mdx": "markdown",
+    "markdown": "markdown",
+    "patch": "patch",
+    "diff": "patch",
+    "pl": "perl",
+    "pm": "perl",
+    "properties": "properties",
+    "regexp": "regexp",
+    "rst": "rst",
+    "sh": "shell",
+    "bash": "shell",
+    "zsh": "shell",
+    "fish": "shell",
+    "sql": "sql",
+    "swift": "swiftLang",
+    "tf": "terraform",
+    "tfvars": "terraform",
+    "hcl": "terraform",
+    "txt": "text",
+    "log": "text",
+    "http": "text",
+    "rest": "text",
+    "toml": "toml",
+    "ts": "typeScript",
+    "tsx": "typeScript",
+    "mts": "typeScript",
+    "cts": "typeScript",
+    "xml": "xml",
+    "xsd": "xml",
+    "wsdl": "xml",
+    "yaml": "yaml",
+    "yml": "yaml",
+    "kt": "kotlin",
+    "kts": "kotlin",
+    "py": "python",
+    "pyi": "python",
+    "go": "go",
+    "rs": "rust",
+    "rb": "ruby",
+    "php": "php",
+    "scala": "scala",
+    "sc": "scala"
+  },
+  "fileNames": {
+    "Dockerfile": "docker",
+    "docker-compose.yml": "docker",
+    "docker-compose.yaml": "docker",
+    "compose.yml": "docker",
+    "compose.yaml": "docker",
+    ".editorconfig": "editorConfig",
+    ".gitignore": "ignored",
+    ".dockerignore": "ignored",
+    ".helmignore": "ignored",
+    ".npmignore": "ignored",
+    ".vscodeignore": "ignored",
+    "Makefile": "config",
+    "makefile": "config",
+    "GNUmakefile": "config",
+    ".env": "config",
+    "Jenkinsfile": "config",
+    "build.gradle": "gradle",
+    "build.gradle.kts": "gradle",
+    "settings.gradle": "gradle",
+    "settings.gradle.kts": "gradle",
+    "pom.xml": "maven",
+    "BUILD": "bazel",
+    "WORKSPACE": "bazel",
+    "LICENSE": "text"
+  },
+  "languageIds": {
+    "shellscript": "shell",
+    "dockerfile": "docker",
+    "yaml": "yaml",
+    "json": "json",
+    "jsonc": "json",
+    "markdown": "markdown",
+    "terraform": "terraform",
+    "makefile": "config",
+    "ignore": "ignored",
+    "properties": "properties",
+    "ini": "config",
+    "plaintext": "text"
+  },
+  "hidesExplorerArrows": false
+}
