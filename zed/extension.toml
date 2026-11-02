@@ -1,0 +1,7 @@
+id = "fulgora-theme"
+name = "Fulgora Theme"
+version = "0.1.0"
+schema_version = 1
+authors = ["Przemek Nowak"]
+description = "Dark theme matching IntelliJ IDEA Islands Dark with the Fulgora color scheme"
+repository = "https://github.com/pnowy/fulgora"
