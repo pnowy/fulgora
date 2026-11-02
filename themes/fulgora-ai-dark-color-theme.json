@@ -1,0 +1,963 @@
+{
+  "name": "Fulgora (AI Dark)",
+  "type": "dark",
+  // Mirrors IntelliJ IDEA with the Islands Dark (AI) appearance and the Fulgora editor scheme.
+  "semanticHighlighting": true,
+  "colors": {
+    // EDITOR — Fulgora scheme from fulgora-ai-dark.icls
+    "editor.background": "#1E1F22",
+    "editor.foreground": "#D5D6DB",
+    "editorCursor.foreground": "#E6E7EB",
+    "editor.selectionBackground": "#2F4538",
+    "editor.inactiveSelectionBackground": "#2F453899",
+    "editor.selectionHighlightBackground": "#2F453880",
+    "editor.wordHighlightBackground": "#2F453880",
+    "editor.wordHighlightStrongBackground": "#46355A80",
+    "editor.findMatchBackground": "#1F5A5A",
+    "editor.findMatchHighlightBackground": "#2F4538CC",
+    "editor.lineHighlightBackground": "#26272B",
+    "editorBracketMatch.border": "#85CC7E",
+    "editorBracketMatch.background": "#00000000",
+    "editorIndentGuide.background1": "#2C2E33",
+    "editorIndentGuide.activeBackground1": "#4A4D55",
+    "editorWhitespace.foreground": "#34363C",
+    "editorRuler.foreground": "#2C2E33",
+    "editorGutter.background": "#1E1F22",
+    "editorGutter.addedBackground": "#4E8A5A",
+    "editorGutter.modifiedBackground": "#4F7AB0",
+    "editorGutter.deletedBackground": "#6E727C",
+    "editorLineNumber.foreground": "#5C606A",
+    "editorLineNumber.activeForeground": "#A0A4AD",
+    "editorBracketHighlight.foreground1": "#D5D6DB",
+    "editorBracketHighlight.foreground2": "#D5D6DB",
+    "editorBracketHighlight.foreground3": "#D5D6DB",
+    "editorBracketHighlight.foreground4": "#D5D6DB",
+    "editorBracketHighlight.foreground5": "#D5D6DB",
+    "editorBracketHighlight.foreground6": "#D5D6DB",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#F28B82",
+    // WINDOW CHROME — Islands Dark (AI) main-window-bg
+    "titleBar.activeBackground": "#2A2C30",
+    "titleBar.inactiveBackground": "#2A2C30",
+    "titleBar.activeForeground": "#D0D2D8",
+    "titleBar.inactiveForeground": "#737780",
+    "titleBar.border": "#2A2C30",
+    "activityBar.background": "#2A2C30",
+    "activityBar.foreground": "#D0D2D8",
+    "activityBar.inactiveForeground": "#9A9EA6",
+    "activityBar.activeBorder": "#3D6FD0",
+    "activityBar.border": "#2A2C30",
+    "activityBarBadge.background": "#3D6FD0",
+    "activityBarBadge.foreground": "#FFFFFF",
+    "statusBar.background": "#2A2C30",
+    "statusBar.foreground": "#9A9EA6",
+    "statusBar.border": "#2A2C30",
+    "statusBar.noFolderBackground": "#2A2C30",
+    // TOOL WINDOWS — Islands Dark (AI) tool-window-bg
+    "sideBar.background": "#1E1F22",
+    "sideBar.foreground": "#D0D2D8",
+    "sideBar.border": "#2A2C30",
+    "sideBarSectionHeader.background": "#1E1F22",
+    "sideBarSectionHeader.border": "#2A2C30",
+    "panel.background": "#1E1F22",
+    "panel.border": "#2A2C30",
+    "panelTitle.activeBorder": "#3D6FD0",
+    "panelTitle.activeForeground": "#D0D2D8",
+    "panelTitle.inactiveForeground": "#9A9EA6",
+    "list.activeSelectionBackground": "#2E3D5C",
+    "list.activeSelectionForeground": "#D0D2D8",
+    "list.inactiveSelectionBackground": "#2F3136",
+    "list.hoverBackground": "#FFFFFF0D",
+    "list.highlightForeground": "#7FA8F5",
+    "tree.indentGuidesStroke": "#00000000",
+    "tree.inactiveIndentGuidesStroke": "#00000000",
+    // EDITOR TABS — Islands Dark (AI) EditorTabs
+    "editorGroupHeader.tabsBackground": "#1E1F22",
+    "editorGroupHeader.tabsBorder": "#2A2C30",
+    "editorGroup.border": "#2A2C30",
+    "tab.border": "#1E1F22",
+    "tab.activeBackground": "#2A3550",
+    "tab.activeForeground": "#D0D2D8",
+    "tab.activeBorder": "#3D5A8A",
+    "tab.inactiveBackground": "#1E1F22",
+    "tab.inactiveForeground": "#9A9EA6",
+    "tab.unfocusedActiveBackground": "#2A2C30",
+    "tab.unfocusedActiveBorder": "#40434A",
+    "tab.hoverBackground": "#FFFFFF0D",
+    // POPUPS — Islands Dark (AI) popup-bg, autocomplete and docs use LOOKUP_COLOR and DOCUMENTATION_COLOR
+    "editorWidget.background": "#2A2C30",
+    "editorWidget.border": "#383A40",
+    "quickInput.background": "#2A2C30",
+    "menu.background": "#2A2C30",
+    "menu.border": "#383A40",
+    "menu.selectionBackground": "#2E3D5C",
+    "editorSuggestWidget.background": "#2D2F34",
+    "editorSuggestWidget.border": "#383A40",
+    "editorSuggestWidget.foreground": "#D0D2D8",
+    "editorSuggestWidget.highlightForeground": "#7FA8F5",
+    "editorSuggestWidget.selectedBackground": "#2E3D5C",
+    "editorHoverWidget.background": "#2D2F34",
+    "editorHoverWidget.border": "#383A40",
+    // CONTROLS — Islands Dark (AI) accent and control colors
+    "focusBorder": "#3D6FD0",
+    "progressBar.background": "#3D6FD0",
+    "badge.background": "#3D6FD0",
+    "badge.foreground": "#FFFFFF",
+    "button.background": "#3D6FD0",
+    "button.foreground": "#FFFFFF",
+    "input.background": "#1E1F22",
+    "input.border": "#45484F",
+    "dropdown.background": "#2A2C30",
+    "dropdown.border": "#45484F",
+    "textLink.foreground": "#89C3FE",
+    // DIFF AND MERGE — DIFF_* attributes from fulgora-ai-dark.icls; VS Code has no "modified" kind, so changed lines use inserted and deleted
+    "diffEditor.insertedLineBackground": "#1F3E1F66",
+    "diffEditor.insertedTextBackground": "#1F3E1FE6",
+    "diffEditor.removedLineBackground": "#4B4B4B66",
+    "diffEditor.removedTextBackground": "#4B4B4BE6",
+    "diffEditorGutter.insertedLineBackground": "#1F3E1F66",
+    "diffEditorGutter.removedLineBackground": "#4B4B4B66",
+    "diffEditorOverview.insertedForeground": "#447152",
+    "diffEditorOverview.removedForeground": "#656E76",
+    "diffEditor.diagonalFill": "#2C2E33",
+    "diffEditor.unchangedRegionBackground": "#1E1F22",
+    "diffEditor.unchangedRegionForeground": "#9A9EA6",
+    "diffEditor.move.border": "#43698D",
+    "diffEditor.moveActive.border": "#43698D",
+    "multiDiffEditor.headerBackground": "#1E1F22",
+    "multiDiffEditor.border": "#2A2C30",
+    "merge.currentHeaderBackground": "#2A3F5FE6",
+    "merge.currentContentBackground": "#2A3F5F66",
+    "merge.incomingHeaderBackground": "#1F3E1FE6",
+    "merge.incomingContentBackground": "#1F3E1F66",
+    "merge.commonHeaderBackground": "#4B4B4BE6",
+    "merge.commonContentBackground": "#4B4B4B66",
+    "mergeEditor.change.background": "#2A3F5F66",
+    "mergeEditor.change.word.background": "#2A3F5FE6",
+    "mergeEditor.conflict.unhandledUnfocused.border": "#8F5247",
+    "mergeEditor.conflict.unhandledFocused.border": "#8F5247",
+    "editorOverviewRuler.currentContentForeground": "#43698D",
+    "editorOverviewRuler.incomingContentForeground": "#447152",
+    // TERMINAL — Fulgora CONSOLE_* attributes
+    "terminal.background": "#1E1F22",
+    "terminal.foreground": "#D5D6DB",
+    "terminal.ansiBlack": "#2A2C30",
+    "terminal.ansiRed": "#F28B82",
+    "terminal.ansiGreen": "#85CC7E",
+    "terminal.ansiYellow": "#E4CD77",
+    "terminal.ansiBlue": "#71C9FA",
+    "terminal.ansiMagenta": "#CBA1FA",
+    "terminal.ansiCyan": "#73DFDF",
+    "terminal.ansiWhite": "#D5D6DB",
+    "terminal.ansiBrightBlack": "#6E727C",
+    "terminal.ansiBrightRed": "#FFA8A0",
+    "terminal.ansiBrightGreen": "#A2D89C",
+    "terminal.ansiBrightYellow": "#EED98C",
+    "terminal.ansiBrightBlue": "#91D3FB",
+    "terminal.ansiBrightMagenta": "#D9B6FB",
+    "terminal.ansiBrightCyan": "#94E8E8",
+    "terminal.ansiBrightWhite": "#EDEEF1"
+  },
+  // Each scope entry is an independent selector: never list parent scopes such as source.ts here.
+  "tokenColors": [
+    // GENERAL
+    // Fallbacks shared by every language; values come from the DEFAULT_* attributes of fulgora.icls
+    {
+      "name": "Comments",
+      "scope": [
+        "comment",
+        "comment.block.documentation",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#868A94"
+      }
+    },
+    {
+      "name": "Doc comment tags",
+      "scope": [
+        "keyword.other.documentation",
+        "storage.type.class.jsdoc",
+        "storage.type.class.javadoc",
+        "entity.name.type.instance.jsdoc"
+      ],
+      "settings": {
+        "foreground": "#868A94",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": [
+        "keyword",
+        "keyword.control",
+        "storage",
+        "storage.type",
+        "storage.modifier",
+        "keyword.operator.new",
+        "keyword.operator.expression",
+        "constant.language",
+        "variable.language",
+        "markup.heading"
+      ],
+      "settings": {
+        "foreground": "#FDA258"
+      }
+    },
+    {
+      "name": "Operators",
+      "scope": [
+        "keyword.operator",
+        "punctuation.separator.key-value"
+      ],
+      "settings": {
+        "foreground": "#C7CBD1"
+      }
+    },
+    {
+      "name": "Commas and semicolons",
+      "scope": [
+        "punctuation.separator.comma",
+        "punctuation.separator.delimiter",
+        "punctuation.separator.parameter",
+        "punctuation.separator.parameters",
+        "punctuation.separator.dictionary.pair",
+        "punctuation.separator.array",
+        "punctuation.separator.arguments",
+        "punctuation.separator.element",
+        "punctuation.terminator"
+      ],
+      "settings": {
+        "foreground": "#F89177"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": [
+        "string",
+        "string.template",
+        "punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "#85CC7E"
+      }
+    },
+    {
+      "name": "String escapes",
+      "scope": [
+        "constant.character.escape"
+      ],
+      "settings": {
+        "foreground": "#A4CBDF",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Regular expressions",
+      "scope": [
+        "string.regexp",
+        "punctuation.definition.group.regexp",
+        "punctuation.definition.character-class.regexp"
+      ],
+      "settings": {
+        "foreground": "#E4CD77"
+      }
+    },
+    {
+      "name": "Template interpolation delimiters",
+      "scope": [
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end"
+      ],
+      "settings": {
+        "foreground": "#FDA258"
+      }
+    },
+    {
+      "name": "Template interpolation body",
+      "scope": [
+        "meta.template.expression"
+      ],
+      "settings": {
+        "foreground": "#D5D6DB"
+      }
+    },
+    {
+      "name": "Numbers",
+      "scope": [
+        "constant.numeric",
+        "keyword.other.unit"
+      ],
+      "settings": {
+        "foreground": "#5FC4DC"
+      }
+    },
+    {
+      "name": "Constants",
+      "scope": [
+        "constant.other",
+        "constant.character"
+      ],
+      "settings": {
+        "foreground": "#FDA19A"
+      }
+    },
+    {
+      "name": "Enum constants",
+      "scope": [
+        "constant.other.enum",
+        "variable.other.enummember"
+      ],
+      "settings": {
+        "foreground": "#5EEAE5"
+      }
+    },
+    {
+      "name": "Classes and types",
+      "scope": [
+        "entity.name.type",
+        "entity.name.class",
+        "entity.other.inherited-class",
+        "support.class",
+        "support.type"
+      ],
+      "settings": {
+        "foreground": "#AEDABF"
+      }
+    },
+    {
+      "name": "Interfaces",
+      "scope": [
+        "entity.name.type.interface"
+      ],
+      "settings": {
+        "foreground": "#ADD871"
+      }
+    },
+    {
+      "name": "Type parameters",
+      "scope": [
+        "entity.name.type.parameter",
+        "variable.other.generic-type"
+      ],
+      "settings": {
+        "foreground": "#AFD2F4"
+      }
+    },
+    {
+      "name": "Primitive types",
+      "scope": [
+        "support.type.primitive",
+        "storage.type.primitive"
+      ],
+      "settings": {
+        "foreground": "#FDA258"
+      }
+    },
+    {
+      "name": "Function declarations",
+      "scope": [
+        "entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#E2C06D"
+      }
+    },
+    {
+      "name": "Function calls",
+      "scope": [
+        "support.function",
+        "meta.function-call entity.name.function",
+        "variable.function"
+      ],
+      "settings": {
+        "foreground": "#E4CD77"
+      }
+    },
+    {
+      "name": "Fields and properties",
+      "scope": [
+        "variable.other.property",
+        "variable.other.object.property",
+        "variable.object.property",
+        "support.variable.property",
+        "meta.object-literal.key",
+        "entity.other.attribute-name",
+        "support.type.property-name"
+      ],
+      "settings": {
+        "foreground": "#C1C1FA"
+      }
+    },
+    {
+      "name": "Annotations and decorators",
+      "scope": [
+        "storage.type.annotation",
+        "meta.declaration.annotation",
+        "meta.decorator",
+        "entity.name.function.decorator",
+        "punctuation.definition.decorator",
+        "punctuation.decorator"
+      ],
+      "settings": {
+        "foreground": "#CBA1FA"
+      }
+    },
+    {
+      "name": "Parameters and locals",
+      "scope": [
+        "variable.parameter"
+      ],
+      "settings": {
+        "foreground": "#E0D9AC"
+      }
+    },
+    // TOKENS
+    // Log file severity markers
+    {
+      "name": "Info",
+      "scope": [
+        "token.info-token"
+      ],
+      "settings": {
+        "foreground": "#89C3FE"
+      }
+    },
+    {
+      "name": "Warning",
+      "scope": [
+        "token.warn-token"
+      ],
+      "settings": {
+        "foreground": "#E6B55D"
+      }
+    },
+    {
+      "name": "Error",
+      "scope": [
+        "token.error-token"
+      ],
+      "settings": {
+        "foreground": "#FFA098"
+      }
+    },
+    {
+      "name": "Debug",
+      "scope": [
+        "token.debug-token"
+      ],
+      "settings": {
+        "foreground": "#CEACF7"
+      }
+    },
+    // JAVA
+    // Matches the JAVA section of fulgora.icls
+    {
+      "name": "Types",
+      "scope": [
+        "storage.type.java",
+        "storage.type.generic.java",
+        "storage.type.object.array.java",
+        "entity.name.type.class.java",
+        "entity.name.type.enum.java",
+        "meta.definition.class.inherited.classes.java entity.other.inherited-class.java"
+      ],
+      "settings": {
+        "foreground": "#AEDABF"
+      }
+    },
+    {
+      "name": "Implemented interfaces",
+      "scope": [
+        "meta.definition.class.implemented.interfaces.java entity.other.inherited-class.java",
+        "entity.name.type.interface.java"
+      ],
+      "settings": {
+        "foreground": "#ADD871"
+      }
+    },
+    {
+      "name": "Primitive types",
+      "scope": [
+        "storage.type.primitive.java",
+        "storage.type.primitive.array.java"
+      ],
+      "settings": {
+        "foreground": "#FDA258"
+      }
+    },
+    {
+      "name": "Package names",
+      "scope": [
+        "storage.modifier.package.java"
+      ],
+      "settings": {
+        "foreground": "#D5D6DB"
+      }
+    },
+    {
+      "name": "Imports",
+      "scope": [
+        "storage.modifier.import.java"
+      ],
+      "settings": {
+        "foreground": "#AEDABF"
+      }
+    },
+    {
+      "name": "Fields, variables and parameters",
+      "scope": [
+        "variable.other.definition.java",
+        "variable.parameter.java",
+        "variable.other.object.java",
+        "variable.other.object.property.java",
+        "variable.other.property.java"
+      ],
+      "settings": {
+        "foreground": "#76C7FF"
+      }
+    },
+    {
+      "name": "Methods",
+      "scope": [
+        "entity.name.function.java"
+      ],
+      "settings": {
+        "foreground": "#D5D6DB"
+      }
+    },
+    {
+      "name": "Enum constants",
+      "scope": [
+        "constant.other.enum.java"
+      ],
+      "settings": {
+        "foreground": "#5EEAE5"
+      }
+    },
+    // JAVASCRIPT AND TYPESCRIPT
+    // Matches the JS.* attributes of fulgora.icls
+    {
+      "name": "Locals and parameters",
+      "scope": [
+        "variable.other.readwrite.ts",
+        "variable.other.readwrite.tsx",
+        "variable.other.readwrite.js",
+        "variable.other.constant.ts",
+        "variable.other.constant.tsx",
+        "variable.other.constant.js",
+        "variable.parameter.ts",
+        "variable.parameter.tsx",
+        "variable.parameter.js",
+        "variable.other.object.ts",
+        "variable.other.object.tsx",
+        "variable.other.object.js"
+      ],
+      "settings": {
+        "foreground": "#76C7FF"
+      }
+    },
+    {
+      "name": "Import aliases",
+      "scope": [
+        "variable.other.readwrite.alias.ts",
+        "variable.other.readwrite.alias.tsx",
+        "variable.other.readwrite.alias.js"
+      ],
+      "settings": {
+        "foreground": "#AEDABF"
+      }
+    },
+    {
+      "name": "Method declarations",
+      "scope": [
+        "meta.definition.method entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#76C7FF"
+      }
+    },
+    {
+      "name": "Regular expressions",
+      "scope": [
+        "string.regexp.ts",
+        "string.regexp.tsx",
+        "string.regexp.js"
+      ],
+      "settings": {
+        "foreground": "#E4CD77"
+      }
+    },
+    // PYTHON
+    // Matches the PY.* attributes of fulgora.icls
+    {
+      "name": "Strings",
+      "scope": [
+        "source.python string"
+      ],
+      "settings": {
+        "foreground": "#A2D89C"
+      }
+    },
+    {
+      "name": "Docstrings",
+      "scope": [
+        "source.python string.quoted.docstring"
+      ],
+      "settings": {
+        "foreground": "#868A94"
+      }
+    },
+    {
+      "name": "Function calls",
+      "scope": [
+        "meta.function-call.generic.python"
+      ],
+      "settings": {
+        "foreground": "#E4CD77"
+      }
+    },
+    {
+      "name": "Builtins",
+      "scope": [
+        "support.function.builtin.python",
+        "support.type.python"
+      ],
+      "settings": {
+        "foreground": "#FCA676"
+      }
+    },
+    {
+      "name": "Self parameter",
+      "scope": [
+        "variable.parameter.function.language.special.self.python",
+        "variable.language.special.self.python"
+      ],
+      "settings": {
+        "foreground": "#E4CD77"
+      }
+    },
+    {
+      "name": "Keyword arguments",
+      "scope": [
+        "variable.parameter.function-call.python"
+      ],
+      "settings": {
+        "foreground": "#D5D6DB"
+      }
+    },
+    {
+      "name": "Logical operators",
+      "scope": [
+        "keyword.operator.logical.python"
+      ],
+      "settings": {
+        "foreground": "#FDA258"
+      }
+    },
+    // YAML
+    // YAML has no numeric token in IntelliJ, so plain scalars stay white
+    {
+      "name": "Keys",
+      "scope": [
+        "entity.name.tag.yaml"
+      ],
+      "settings": {
+        "foreground": "#FDA258"
+      }
+    },
+    {
+      "name": "Plain values",
+      "scope": [
+        "string.unquoted.plain.out.yaml",
+        "source.yaml constant.numeric",
+        "constant.language.boolean.yaml",
+        "constant.language.null.yaml",
+        "constant.language.yaml"
+      ],
+      "settings": {
+        "foreground": "#D5D6DB"
+      }
+    },
+    {
+      "name": "Separators",
+      "scope": [
+        "punctuation.separator.map.value.yaml",
+        "punctuation.definition.block.sequence.item.yaml"
+      ],
+      "settings": {
+        "foreground": "#D5D6DB"
+      }
+    },
+    {
+      "name": "Anchors",
+      "scope": [
+        "keyword.control.flow.anchor.yaml",
+        "punctuation.definition.anchor.yaml",
+        "variable.other.anchor.yaml",
+        "variable.other.alias.yaml",
+        "keyword.control.flow.alias.yaml"
+      ],
+      "settings": {
+        "foreground": "#91C1FF"
+      }
+    },
+    // TERRAFORM AND HCL
+    // The scheme defines no HCL colors, so these keep the theme palette
+    {
+      "name": "Block types",
+      "scope": [
+        "entity.name.type.hcl",
+        "entity.name.type.terraform"
+      ],
+      "settings": {
+        "foreground": "#FDA258"
+      }
+    },
+    {
+      "name": "Block labels",
+      "scope": [
+        "variable.other.enummember.hcl"
+      ],
+      "settings": {
+        "foreground": "#ADD871"
+      }
+    },
+    {
+      "name": "Attributes and references",
+      "scope": [
+        "variable.other.readwrite.hcl",
+        "variable.other.readwrite.terraform",
+        "variable.declaration.hcl"
+      ],
+      "settings": {
+        "foreground": "#C1C1FA"
+      }
+    },
+    // SHELL
+    // Matches the BASH.* attributes of fulgora.icls
+    {
+      "name": "Builtin commands",
+      "scope": [
+        "support.function.builtin.shell"
+      ],
+      "settings": {
+        "foreground": "#FDA258"
+      }
+    },
+    {
+      "name": "External commands",
+      "scope": [
+        "entity.name.command.shell"
+      ],
+      "settings": {
+        "foreground": "#F89177"
+      }
+    },
+    {
+      "name": "Function declarations",
+      "scope": [
+        "entity.name.function.shell"
+      ],
+      "settings": {
+        "foreground": "#76C7FF",
+        "fontStyle": "bold"
+      }
+    },
+    // HTML AND MARKUP
+    // Tags, attributes and Markdown
+    {
+      "name": "Tags",
+      "scope": [
+        "entity.name.tag",
+        "punctuation.definition.tag"
+      ],
+      "settings": {
+        "foreground": "#FDA258"
+      }
+    },
+    {
+      "name": "Markdown lists",
+      "scope": [
+        "punctuation.definition.list.begin.markdown"
+      ],
+      "settings": {
+        "foreground": "#FFA098"
+      }
+    },
+    {
+      "name": "Markdown code",
+      "scope": [
+        "markup.inline.raw",
+        "markup.fenced_code.block"
+      ],
+      "settings": {
+        "foreground": "#8DCEEE"
+      }
+    },
+    {
+      "name": "Markdown quotes",
+      "scope": [
+        "markup.quote"
+      ],
+      "settings": {
+        "foreground": "#A7C2D5"
+      }
+    },
+    {
+      "name": "Markdown links",
+      "scope": [
+        "markup.underline.link",
+        "string.other.link"
+      ],
+      "settings": {
+        "foreground": "#89C3FE"
+      }
+    },
+    // CSS
+    // Matches the CSS.* attributes of fulgora.icls
+    {
+      "name": "Selectors",
+      "scope": [
+        "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.class.scss",
+        "entity.other.attribute-name.id",
+        "entity.other.attribute-name.pseudo-class.css",
+        "entity.other.attribute-name.pseudo-element.css"
+      ],
+      "settings": {
+        "foreground": "#FDA258"
+      }
+    },
+    {
+      "name": "Property values",
+      "scope": [
+        "support.constant.property-value.css",
+        "support.constant.property-value.scss"
+      ],
+      "settings": {
+        "foreground": "#D5D6DB"
+      }
+    },
+    {
+      "name": "Value functions",
+      "scope": [
+        "support.function.misc.css",
+        "support.function.misc.scss"
+      ],
+      "settings": {
+        "foreground": "#AFD2F4",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "URLs and important",
+      "scope": [
+        "variable.parameter.url.css",
+        "keyword.other.important.css",
+        "keyword.other.important.scss"
+      ],
+      "settings": {
+        "foreground": "#AED37D"
+      }
+    },
+    {
+      "name": "Custom properties",
+      "scope": [
+        "variable.css",
+        "variable.scss",
+        "support.type.custom-property.name.css"
+      ],
+      "settings": {
+        "foreground": "#AFD2F4"
+      }
+    },
+    // OTHER LANGUAGES
+    // Language variables with no IntelliJ counterpart
+    {
+      "name": "PHP and Perl variables",
+      "scope": [
+        "variable.language.php",
+        "variable.other.php",
+        "variable.other.readwrite.perl"
+      ],
+      "settings": {
+        "foreground": "#CCB2E0"
+      }
+    },
+    {
+      "name": "PHP properties",
+      "scope": [
+        "variable.other.property.php",
+        "support.variable.property.php"
+      ],
+      "settings": {
+        "foreground": "#FDA258"
+      }
+    },
+    {
+      "name": "Dart classes",
+      "scope": [
+        "support.class.dart"
+      ],
+      "settings": {
+        "foreground": "#FDA258"
+      }
+    }
+  ],
+  "semanticTokenColors": {
+    // JAVA (Language Support for Java)
+    "class:java": "#AEDABF",
+    "enum:java": "#AEDABF",
+    "interface:java": "#ADD871",
+    "annotation:java": "#CBA1FA",
+    "annotationMember:java": "#CBA1FA",
+    "typeParameter:java": "#AFD2F4",
+    "enumMember:java": "#5EEAE5",
+    "property:java": "#76C7FF",
+    "property.static:java": "#5EEAE5",
+    "variable:java": "#76C7FF",
+    "parameter:java": "#76C7FF",
+    "method:java": "#D5D6DB",
+    "method.static:java": {
+      "foreground": "#E3D372",
+      "italic": true
+    },
+    // JAVASCRIPT AND TYPESCRIPT
+    "method:typescript": "#76C7FF",
+    "function:typescript": "#E4CD77",
+    "function.declaration:typescript": "#E2C06D",
+    "interface:typescript": "#ADD871",
+    "class:typescript": "#AEDABF",
+    "type:typescript": "#AEDABF",
+    "typeParameter:typescript": "#AFD2F4",
+    "method:typescriptreact": "#76C7FF",
+    "function:typescriptreact": "#E4CD77",
+    "function.declaration:typescriptreact": "#E2C06D",
+    "interface:typescriptreact": "#ADD871",
+    "class:typescriptreact": "#AEDABF",
+    "type:typescriptreact": "#AEDABF",
+    "typeParameter:typescriptreact": "#AFD2F4",
+    "method:javascript": "#76C7FF",
+    "function:javascript": "#E4CD77",
+    "function.declaration:javascript": "#E2C06D",
+    "interface:javascript": "#ADD871",
+    "class:javascript": "#AEDABF",
+    "type:javascript": "#AEDABF",
+    "typeParameter:javascript": "#AFD2F4",
+    "method:javascriptreact": "#76C7FF",
+    "function:javascriptreact": "#E4CD77",
+    "function.declaration:javascriptreact": "#E2C06D",
+    "interface:javascriptreact": "#ADD871",
+    "class:javascriptreact": "#AEDABF",
+    "type:javascriptreact": "#AEDABF",
+    "typeParameter:javascriptreact": "#AFD2F4",
+    // TERRAFORM (keeps the TextMate colors above)
+    "hcl-blockType": "#FDA258",
+    "hcl-blockLabel": "#ADD871",
+    "hcl-attrName": "#C1C1FA",
+    "hcl-objectKey": "#C1C1FA",
+    "hcl-mapKey": "#C1C1FA",
+    "hcl-referenceStep": "#C1C1FA",
+    "hcl-functionName": "#E4CD77"
+  }
+}
