@@ -18,12 +18,17 @@
   "keywords": [
     "theme",
     "dark theme",
+    "light theme",
+    "sunset drive",
+    "synthwave",
     "fulgora",
     "devops",
     "kubernetes",
     "docker",
     "helm",
-    "terraform"
+    "terraform",
+    "icon theme",
+    "intellij"
   ],
   "contributes": {
     "themes": [
@@ -31,6 +36,33 @@
         "label": "Fulgora",
         "uiTheme": "vs-dark",
         "path": "./themes/fulgora-color-theme.json"
+      },
+      {
+        "label": "Fulgora Dark BG",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fulgora-dark-bg-color-theme.json"
+      },
+      {
+        "label": "Fulgora Sunset Drive",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fulgora-sunset-drive-color-theme.json"
+      },
+      {
+        "label": "Fulgora (AI Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fulgora-ai-dark-color-theme.json"
+      },
+      {
+        "label": "Fulgora (AI Light)",
+        "uiTheme": "vs",
+        "path": "./themes/fulgora-ai-light-color-theme.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "fulgora-icons",
+        "label": "Fulgora Icons",
+        "path": "./themes/fulgora-icon-theme.json"
       }
     ]
   }
