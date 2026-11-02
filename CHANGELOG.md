@@ -1,3 +1,10 @@
+## [0.4.0](https://github.com/pnowy/fulgora/compare/v0.3.0..v0.4.0) - 2026-11-02
+
+### ⛰️  Features
+
+- Islands-aligned Fulgora, new variants, Fulgora Icons and Zed theme ([#3](https://github.com/orhun/git-cliff/issues/3)) - ([872ff59](https://github.com/pnowy/fulgora/commit/872ff5910202fcbdd02e96e1560ce116ecfe509f))
+
+
 ## [0.3.0](https://github.com/pnowy/fulgora/compare/v0.2.1..v0.3.0) - 2025-03-11
 
 ### ⛰️  Features
