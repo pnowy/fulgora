@@ -4,6 +4,10 @@
 
 - Islands-aligned Fulgora, new variants, Fulgora Icons and Zed theme ([#3](https://github.com/orhun/git-cliff/issues/3)) - ([872ff59](https://github.com/pnowy/fulgora/commit/872ff5910202fcbdd02e96e1560ce116ecfe509f))
 
+### ⚙️ Miscellaneous Tasks
+
+- Allow re-tagging a release whose version is already in package.json - ([68dcba1](https://github.com/pnowy/fulgora/commit/68dcba1fbf1ed7cbe9e5dcd92f9934e703b310d2))
+
 
 ## [0.3.0](https://github.com/pnowy/fulgora/compare/v0.2.1..v0.3.0) - 2025-03-11
 
