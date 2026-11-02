@@ -16,7 +16,7 @@ See [CHANGELOG.md](CHANGELOG.md)
 
 ## Intellij IDEA color scheme
 
-If you are looking Intellij IDEA color schema you will find it on this [VS Code theme plugin](https://github.com/pnowy/fulgora/blob/main/fulgora.icls) repository.
+If you are looking Intellij IDEA color schema you will find it on this [VS Code theme plugin](https://github.com/pnowy/fulgora/blob/main/intellij/fulgora.icls) repository.
 
 The VS Code theme follows IntelliJ IDEA's **Islands Dark** appearance with the **Fulgora** editor scheme. Rounded Islands panels can't be reproduced by a VS Code color theme, so only the colors match.
 
@@ -24,11 +24,11 @@ Every VS Code and Zed variant takes its diff and merge colors from the matching 
 
 ## Dark BG
 
-**Fulgora Dark BG** is identical to Fulgora Dark but keeps the original near-black `#0C0C0C` editor background instead of the Islands `#191A1C`. It is available for VS Code, Zed and IntelliJ IDEA ([fulgora-dark-bg.icls](fulgora-dark-bg.icls)).
+**Fulgora Dark BG** is identical to Fulgora Dark but keeps the original near-black `#0C0C0C` editor background instead of the Islands `#191A1C`. It is available for VS Code, Zed and IntelliJ IDEA ([fulgora-dark-bg.icls](intellij/fulgora-dark-bg.icls)).
 
 ## Sunset Drive
 
-**Fulgora Sunset Drive** keeps the Fulgora Dark syntax colors and takes its appearance from Ghostty's **Sunset Drive** terminal theme: a `#0F0F1A` navy-black editor and window, a magenta accent, and the exact 16 ANSI colors in the integrated terminal. It is available for VS Code, Zed and IntelliJ IDEA ([fulgora-sunset-drive.icls](fulgora-sunset-drive.icls)).
+**Fulgora Sunset Drive** keeps the Fulgora Dark syntax colors and takes its appearance from Ghostty's **Sunset Drive** terminal theme: a `#0F0F1A` navy-black editor and window, a magenta accent, and the exact 16 ANSI colors in the integrated terminal. It is available for VS Code, Zed and IntelliJ IDEA ([fulgora-sunset-drive.icls](intellij/fulgora-sunset-drive.icls)).
 
 ## AI Dark and AI Light
 
@@ -42,7 +42,7 @@ Every VS Code and Zed variant takes its diff and merge colors from the matching 
 | Comments | 4.8:1 | 4.7:1 | Quiet but still above WCAG AA (4.5:1) |
 | Caret row and selection | Low-saturation tints | Low-saturation tints | No bright highlight band that pulls the eye |
 
-Both are available for VS Code, Zed and IntelliJ IDEA ([fulgora-ai-dark.icls](fulgora-ai-dark.icls), [fulgora-ai-light.icls](fulgora-ai-light.icls)).
+Both are available for VS Code, Zed and IntelliJ IDEA ([fulgora-ai-dark.icls](intellij/fulgora-ai-dark.icls), [fulgora-ai-light.icls](intellij/fulgora-ai-light.icls)).
 
 Static fields, interfaces and method kinds rely on semantic highlighting, so keep `editor.semanticHighlighting.enabled` at its default `configuredByTheme` value or set it to `true`.
 
