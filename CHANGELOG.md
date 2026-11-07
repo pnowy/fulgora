@@ -1,3 +1,14 @@
+## [0.5.0](https://github.com/pnowy/fulgora/compare/v0.4.0..v0.5.0) - 2026-11-07
+
+### 🚑 Bug Fixes
+
+- *(intellij)* Dark Markdown code backgrounds; rename variants to Fulgora Dark/Light (…) ([#5](https://github.com/orhun/git-cliff/issues/5)) - ([8f42dae](https://github.com/pnowy/fulgora/commit/8f42dae4ab8b794d00375785eebb43d1e9c8869f))
+
+### ⚙️ Miscellaneous Tasks
+
+- Move publish workflow to Node 24 actions and make releases re-runnable ([#4](https://github.com/orhun/git-cliff/issues/4)) - ([717e02a](https://github.com/pnowy/fulgora/commit/717e02a93f68b005cfab4eb6e74d3dfddbafefae))
+
+
 ## [0.4.0](https://github.com/pnowy/fulgora/compare/v0.3.0..v0.4.0) - 2026-11-02
 
 ### ⛰️  Features
