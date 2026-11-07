@@ -1,5 +1,5 @@
 {
-  "name": "Fulgora Dark",
+  "name": "Fulgora (Default)",
   "type": "dark",
   // Mirrors IntelliJ IDEA with the Islands Dark appearance and the Fulgora editor scheme.
   "semanticHighlighting": true,

@@ -18,7 +18,7 @@ See [CHANGELOG.md](CHANGELOG.md)
 
 If you are looking Intellij IDEA color schema you will find it on this [VS Code theme plugin](https://github.com/pnowy/fulgora/blob/main/intellij/fulgora.icls) repository.
 
-In IntelliJ IDEA the main scheme is named **Fulgora (Default)**. To install a scheme, open Settings → Editor → Color Scheme, click ⚙ → Import Scheme and pick the `.icls` file. Re-import after updating, as IntelliJ keeps its own copy.
+The main variant is named **Fulgora (Default)** in VS Code, Zed and IntelliJ IDEA (existing VS Code settings that select `Fulgora` keep working). To install an IntelliJ scheme, open Settings → Editor → Color Scheme, click ⚙ → Import Scheme and pick the `.icls` file. Re-import after updating, as IntelliJ keeps its own copy.
 
 All schemes set their own Markdown code block, code fence, inline code and block quote backgrounds. Without them IntelliJ 2026.3 and later shows these with the light `Default` scheme's near-white background.
 
@@ -28,11 +28,11 @@ Every VS Code and Zed variant takes its diff and merge colors from the matching 
 
 ## Dark BG
 
-**Fulgora Dark BG** is identical to Fulgora Dark but keeps the original near-black `#0C0C0C` editor background instead of the Islands `#191A1C`. It is available for VS Code, Zed and IntelliJ IDEA ([fulgora-dark-bg.icls](intellij/fulgora-dark-bg.icls)).
+**Fulgora Dark BG** is identical to Fulgora (Default) but keeps the original near-black `#0C0C0C` editor background instead of the Islands `#191A1C`. It is available for VS Code, Zed and IntelliJ IDEA ([fulgora-dark-bg.icls](intellij/fulgora-dark-bg.icls)).
 
 ## Sunset Drive
 
-**Fulgora Sunset Drive** keeps the Fulgora Dark syntax colors and takes its appearance from Ghostty's **Sunset Drive** terminal theme: a `#0F0F1A` navy-black editor and window, a magenta accent, and the exact 16 ANSI colors in the integrated terminal. It is available for VS Code, Zed and IntelliJ IDEA ([fulgora-sunset-drive.icls](intellij/fulgora-sunset-drive.icls)).
+**Fulgora Sunset Drive** keeps the Fulgora (Default) syntax colors and takes its appearance from Ghostty's **Sunset Drive** terminal theme: a `#0F0F1A` navy-black editor and window, a magenta accent, and the exact 16 ANSI colors in the integrated terminal. It is available for VS Code, Zed and IntelliJ IDEA ([fulgora-sunset-drive.icls](intellij/fulgora-sunset-drive.icls)).
 
 ## AI Dark and AI Light
 
@@ -58,12 +58,12 @@ IntelliJ's module and source root folder markers depend on project structure, wh
 
 ## Zed
 
-The [`zed`](zed) directory contains a Zed version of the theme. To try it, run `zed: install dev extension` from the command palette, select the `zed` directory, then pick **Fulgora Dark**, **Fulgora Dark BG**, **Fulgora Sunset Drive**, **Fulgora (AI Dark)** or **Fulgora (AI Light)** with `theme selector: toggle`.
+The [`zed`](zed) directory contains a Zed version of the theme. To try it, run `zed: install dev extension` from the command palette, select the `zed` directory, then pick **Fulgora (Default)**, **Fulgora Dark BG**, **Fulgora Sunset Drive**, **Fulgora (AI Dark)** or **Fulgora (AI Light)** with `theme selector: toggle`.
 
 Zed themes can't set colors per language, so one color applies wherever a token type appears. For example, YAML keys use the property color and plain YAML values use the string color.
 
 ## Development
 
-Open this repository in VS Code and press `F5` to start an Extension Development Host, then select **Fulgora**, **Fulgora Dark BG**, **Fulgora Sunset Drive**, **Fulgora (AI Dark)** or **Fulgora (AI Light)** with `Preferences: Color Theme`. Saving a file in `themes/` updates that window automatically.
+Open this repository in VS Code and press `F5` to start an Extension Development Host, then select **Fulgora (Default)**, **Fulgora Dark BG**, **Fulgora Sunset Drive**, **Fulgora (AI Dark)** or **Fulgora (AI Light)** with `Preferences: Color Theme`. Saving a file in `themes/` updates that window automatically.
 
 **Enjoy!**

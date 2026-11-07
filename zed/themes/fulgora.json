@@ -4,7 +4,7 @@
   "author": "Przemek Nowak",
   "themes": [
     {
-      "name": "Fulgora Dark",
+      "name": "Fulgora (Default)",
       "appearance": "dark",
       "style": {
         "background.appearance": "opaque",

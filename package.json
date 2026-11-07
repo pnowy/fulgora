@@ -33,7 +33,8 @@
   "contributes": {
     "themes": [
       {
-        "label": "Fulgora",
+        "id": "Fulgora",
+        "label": "Fulgora (Default)",
         "uiTheme": "vs-dark",
         "path": "./themes/fulgora-color-theme.json"
       },
