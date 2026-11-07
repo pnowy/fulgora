@@ -1,9 +1,9 @@
-<scheme name="Fulgora (AI Dark)" version="142" parent_scheme="Default">
+<scheme name="Fulgora Dark (Soft)" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="ide">idea</property>
     <property name="ideVersion">2024.3.4.0.0</property>
-    <property name="originalScheme">Fulgora (AI Dark)</property>
+    <property name="originalScheme">Fulgora Dark (Soft)</property>
   </metaInfo>
   <console-font>
     <option name="EDITOR_FONT_NAME" value="Fira Code" />
@@ -1354,6 +1354,31 @@
     <option name="MARKDOWN.VERBATIM">
       <value>
         <option name="FOREGROUND" value="8dceee" />
+      </value>
+    </option>
+    <option name="MARKDOWN_BLOCK_QUOTE">
+      <value>
+        <option name="BACKGROUND" value="2A2B2F" />
+      </value>
+    </option>
+    <option name="MARKDOWN_CODE_BLOCK">
+      <value>
+        <option name="BACKGROUND" value="2A2B2F" />
+      </value>
+    </option>
+    <option name="MARKDOWN_CODE_FENCE">
+      <value>
+        <option name="BACKGROUND" value="2A2B2F" />
+      </value>
+    </option>
+    <option name="MARKDOWN_CODE_FENCE_BACKGROUND">
+      <value>
+        <option name="BACKGROUND" value="2A2B2F" />
+      </value>
+    </option>
+    <option name="MARKDOWN_CODE_SPAN">
+      <value>
+        <option name="BACKGROUND" value="2A2B2F" />
       </value>
     </option>
     <option name="MARKDOWN_EXPLICIT_LINK">

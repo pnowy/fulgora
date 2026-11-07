@@ -1,9 +1,9 @@
-<scheme name="Fulgora Dark BG" version="142" parent_scheme="Default">
+<scheme name="Fulgora Dark (Black)" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="ide">idea</property>
     <property name="ideVersion">2024.3.4.0.0</property>
-    <property name="originalScheme">Fulgora Dark BG</property>
+    <property name="originalScheme">Fulgora Dark (Black)</property>
   </metaInfo>
   <console-font>
     <option name="EDITOR_FONT_NAME" value="Fira Code" />
@@ -1354,6 +1354,31 @@
     <option name="MARKDOWN.VERBATIM">
       <value>
         <option name="FOREGROUND" value="91ccff" />
+      </value>
+    </option>
+    <option name="MARKDOWN_BLOCK_QUOTE">
+      <value>
+        <option name="BACKGROUND" value="202020" />
+      </value>
+    </option>
+    <option name="MARKDOWN_CODE_BLOCK">
+      <value>
+        <option name="BACKGROUND" value="202020" />
+      </value>
+    </option>
+    <option name="MARKDOWN_CODE_FENCE">
+      <value>
+        <option name="BACKGROUND" value="202020" />
+      </value>
+    </option>
+    <option name="MARKDOWN_CODE_FENCE_BACKGROUND">
+      <value>
+        <option name="BACKGROUND" value="202020" />
+      </value>
+    </option>
+    <option name="MARKDOWN_CODE_SPAN">
+      <value>
+        <option name="BACKGROUND" value="202020" />
       </value>
     </option>
     <option name="MARKDOWN_EXPLICIT_LINK">

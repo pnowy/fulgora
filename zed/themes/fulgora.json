@@ -347,7 +347,7 @@
       }
     },
     {
-      "name": "Fulgora Dark BG",
+      "name": "Fulgora Dark (Black)",
       "appearance": "dark",
       "style": {
         "background.appearance": "opaque",
@@ -690,7 +690,7 @@
       }
     },
     {
-      "name": "Fulgora Sunset Drive",
+      "name": "Fulgora Dark (Sunset)",
       "appearance": "dark",
       "style": {
         "background.appearance": "opaque",
@@ -1033,7 +1033,7 @@
       }
     },
     {
-      "name": "Fulgora (AI Dark)",
+      "name": "Fulgora Dark (Soft)",
       "appearance": "dark",
       "style": {
         "background.appearance": "opaque",
@@ -1376,7 +1376,7 @@
       }
     },
     {
-      "name": "Fulgora (AI Light)",
+      "name": "Fulgora Light (Soft)",
       "appearance": "light",
       "style": {
         "background.appearance": "opaque",

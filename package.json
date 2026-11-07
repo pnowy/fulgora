@@ -33,27 +33,32 @@
   "contributes": {
     "themes": [
       {
-        "label": "Fulgora",
+        "id": "Fulgora",
+        "label": "Fulgora Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/fulgora-color-theme.json"
       },
       {
-        "label": "Fulgora Dark BG",
+        "id": "Fulgora Dark BG",
+        "label": "Fulgora Dark (Black)",
         "uiTheme": "vs-dark",
         "path": "./themes/fulgora-dark-bg-color-theme.json"
       },
       {
-        "label": "Fulgora Sunset Drive",
+        "id": "Fulgora Sunset Drive",
+        "label": "Fulgora Dark (Sunset)",
         "uiTheme": "vs-dark",
         "path": "./themes/fulgora-sunset-drive-color-theme.json"
       },
       {
-        "label": "Fulgora (AI Dark)",
+        "id": "Fulgora (AI Dark)",
+        "label": "Fulgora Dark (Soft)",
         "uiTheme": "vs-dark",
         "path": "./themes/fulgora-ai-dark-color-theme.json"
       },
       {
-        "label": "Fulgora (AI Light)",
+        "id": "Fulgora (AI Light)",
+        "label": "Fulgora Light (Soft)",
         "uiTheme": "vs",
         "path": "./themes/fulgora-ai-light-color-theme.json"
       }
