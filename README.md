@@ -18,7 +18,11 @@ See [CHANGELOG.md](CHANGELOG.md)
 
 If you are looking Intellij IDEA color schema you will find it on this [VS Code theme plugin](https://github.com/pnowy/fulgora/blob/main/intellij/fulgora.icls) repository.
 
-The VS Code theme follows IntelliJ IDEA's **Islands Dark** appearance with the **Fulgora** editor scheme. Rounded Islands panels can't be reproduced by a VS Code color theme, so only the colors match.
+In IntelliJ IDEA the main scheme is named **Fulgora (Default)**. To install a scheme, open Settings → Editor → Color Scheme, click ⚙ → Import Scheme and pick the `.icls` file. Re-import after updating, as IntelliJ keeps its own copy.
+
+All schemes set their own Markdown code block, code fence, inline code and block quote backgrounds. Without them IntelliJ 2026.3 and later shows these with the light `Default` scheme's near-white background.
+
+The VS Code theme follows IntelliJ IDEA's **Islands Dark** appearance with the **Fulgora (Default)** editor scheme. Rounded Islands panels can't be reproduced by a VS Code color theme, so only the colors match.
 
 Every VS Code and Zed variant takes its diff and merge colors from the matching `.icls` scheme (`DIFF_INSERTED`, `DIFF_DELETED`, `DIFF_MODIFIED`, `DIFF_CONFLICT`). As in IntelliJ, changed words get the full color and the rest of a changed line a softer version of it. VS Code and Zed have no separate "modified" diff kind: a changed line shows green on the new side and grey on the old side, not IntelliJ's blue. The blue is used for merge conflicts and moved code instead.
 

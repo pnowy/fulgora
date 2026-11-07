@@ -1356,6 +1356,31 @@
         <option name="FOREGROUND" value="91ccff" />
       </value>
     </option>
+    <option name="MARKDOWN_BLOCK_QUOTE">
+      <value>
+        <option name="BACKGROUND" value="1A1A2C" />
+      </value>
+    </option>
+    <option name="MARKDOWN_CODE_BLOCK">
+      <value>
+        <option name="BACKGROUND" value="1A1A2C" />
+      </value>
+    </option>
+    <option name="MARKDOWN_CODE_FENCE">
+      <value>
+        <option name="BACKGROUND" value="1A1A2C" />
+      </value>
+    </option>
+    <option name="MARKDOWN_CODE_FENCE_BACKGROUND">
+      <value>
+        <option name="BACKGROUND" value="1A1A2C" />
+      </value>
+    </option>
+    <option name="MARKDOWN_CODE_SPAN">
+      <value>
+        <option name="BACKGROUND" value="1A1A2C" />
+      </value>
+    </option>
     <option name="MARKDOWN_EXPLICIT_LINK">
       <value>
         <option name="FOREGROUND" value="b3e633" />
