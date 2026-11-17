@@ -9,3 +9,10 @@ https://www.apache.org/licenses/LICENSE-2.0
 
 The files are unmodified. Product and language names and logos belong to their
 respective owners.
+
+The Fulgora Dark (Modern) and Fulgora Light (Modern) themes start from the
+Dark Modern and Light Modern themes built into Visual Studio Code
+(https://github.com/microsoft/vscode, extensions/theme-defaults).
+Copyright (c) Microsoft Corporation.
+Licensed under the MIT License:
+https://github.com/microsoft/vscode/blob/main/LICENSE.txt

@@ -3,3 +3,5 @@
 .gitignore
 intellij/**
 zed/**
+.history/**
+.idea/**

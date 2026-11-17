@@ -33,34 +33,58 @@
   "contributes": {
     "themes": [
       {
-        "id": "Fulgora",
-        "label": "Fulgora Dark",
+        "id": "Fulgora Dark (Default)",
+        "label": "Fulgora Dark (Default)",
         "uiTheme": "vs-dark",
         "path": "./themes/fulgora-color-theme.json"
       },
       {
-        "id": "Fulgora Dark BG",
+        "id": "Fulgora Light (Default)",
+        "label": "Fulgora Light (Default)",
+        "uiTheme": "vs",
+        "path": "./themes/fulgora-light-color-theme.json"
+      },
+      {
+        "id": "Fulgora Dark (Black)",
         "label": "Fulgora Dark (Black)",
         "uiTheme": "vs-dark",
         "path": "./themes/fulgora-dark-bg-color-theme.json"
       },
       {
-        "id": "Fulgora Sunset Drive",
-        "label": "Fulgora Dark (Sunset)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/fulgora-sunset-drive-color-theme.json"
-      },
-      {
-        "id": "Fulgora (AI Dark)",
+        "id": "Fulgora Dark (Soft)",
         "label": "Fulgora Dark (Soft)",
         "uiTheme": "vs-dark",
         "path": "./themes/fulgora-ai-dark-color-theme.json"
       },
       {
-        "id": "Fulgora (AI Light)",
+        "id": "Fulgora Light (Soft)",
         "label": "Fulgora Light (Soft)",
         "uiTheme": "vs",
         "path": "./themes/fulgora-ai-light-color-theme.json"
+      },
+      {
+        "id": "Fulgora Dark (Sunset)",
+        "label": "Fulgora Dark (Sunset)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fulgora-sunset-drive-color-theme.json"
+      },
+      {
+        "id": "Fulgora Light (Sunset)",
+        "label": "Fulgora Light (Sunset)",
+        "uiTheme": "vs",
+        "path": "./themes/fulgora-sunset-light-color-theme.json"
+      },
+      {
+        "id": "Fulgora Dark (Modern)",
+        "label": "Fulgora Dark (Modern)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fulgora-modern-dark-color-theme.json"
+      },
+      {
+        "id": "Fulgora Light (Modern)",
+        "label": "Fulgora Light (Modern)",
+        "uiTheme": "vs",
+        "path": "./themes/fulgora-modern-light-color-theme.json"
       }
     ],
     "iconThemes": [
