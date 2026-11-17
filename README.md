@@ -18,23 +18,31 @@ See [CHANGELOG.md](CHANGELOG.md)
 
 If you are looking Intellij IDEA color schema you will find it on this [VS Code theme plugin](https://github.com/pnowy/fulgora/blob/main/intellij/fulgora.icls) repository.
 
-Every variant has the same name in VS Code, Zed and IntelliJ IDEA: **Fulgora Dark** (the main theme), **Fulgora Dark (Black)**, **Fulgora Dark (Soft)**, **Fulgora Dark (Sunset)** and **Fulgora Light (Soft)**. Names start with Dark or Light so the pickers group them, and the main theme sorts first. VS Code keeps each theme's earlier name as its ID, so existing settings keep working; in Zed and IntelliJ a renamed variant has to be selected again.
+All nine variants exist in VS Code, Zed and IntelliJ IDEA under the same names: **Fulgora Dark (Default)** (the main theme), **Fulgora Light (Default)**, **Fulgora Dark (Black)**, **Fulgora Dark (Soft)**, **Fulgora Light (Soft)**, **Fulgora Dark (Sunset)**, **Fulgora Light (Sunset)**, **Fulgora Dark (Modern)** and **Fulgora Light (Modern)**. Names start with Dark or Light so the pickers group them. A renamed variant has to be selected again in every editor.
 
 To install an IntelliJ scheme, open Settings → Editor → Color Scheme, click ⚙ → Import Scheme and pick the `.icls` file. Re-import after updating, as IntelliJ keeps its own copy.
 
 All schemes set their own Markdown code block, code fence, inline code and block quote backgrounds. Without them IntelliJ 2026.3 and later shows these with the light `Default` scheme's near-white background.
 
-The VS Code theme follows IntelliJ IDEA's **Islands Dark** appearance with the **Fulgora Dark** editor scheme. Rounded Islands panels can't be reproduced by a VS Code color theme, so only the colors match.
+The VS Code theme follows IntelliJ IDEA's **Islands Dark** appearance with the **Fulgora Dark (Default)** editor scheme. Rounded Islands panels can't be reproduced by a VS Code color theme, so only the colors match.
 
-Every VS Code and Zed variant takes its diff and merge colors from the matching `.icls` scheme (`DIFF_INSERTED`, `DIFF_DELETED`, `DIFF_MODIFIED`, `DIFF_CONFLICT`). As in IntelliJ, changed words get the full color and the rest of a changed line a softer version of it. VS Code and Zed have no separate "modified" diff kind: a changed line shows green on the new side and grey on the old side, not IntelliJ's blue. The blue is used for merge conflicts and moved code instead.
+Every variant takes its diff and merge colors from the matching `.icls` scheme (`DIFF_INSERTED`, `DIFF_DELETED`, `DIFF_MODIFIED`, `DIFF_CONFLICT`). As in IntelliJ, changed words get the full color and the rest of a changed line a softer version of it. VS Code and Zed have no separate "modified" diff kind: a changed line shows green on the new side and grey on the old side, not IntelliJ's blue. The blue is used for merge conflicts and moved code instead.
+
+## Light (Default)
+
+**Fulgora Light (Default)** is the light counterpart of Fulgora Dark (Default). It uses the Fulgora Light (Soft) window and keeps every Fulgora Dark syntax hue at its full saturation, darkened until it reaches at least 5.5:1 on the `#FAFAF7` background (comments 4.6:1). The caret row is a pale echo of the dark theme's olive (`#F4F6DB`) and the selection a pale green (`#C7E8D2`). Compared with Light (Soft), colors are more saturated and less evenly bright. It is available for VS Code, Zed and IntelliJ IDEA ([fulgora-light.icls](intellij/fulgora-light.icls)).
 
 ## Dark (Black)
 
-**Fulgora Dark (Black)** is identical to Fulgora Dark but keeps the original near-black `#0C0C0C` editor background instead of the Islands `#191A1C`. It is available for VS Code, Zed and IntelliJ IDEA ([fulgora-dark-bg.icls](intellij/fulgora-dark-bg.icls)).
+**Fulgora Dark (Black)** is identical to Fulgora Dark (Default) but keeps the original near-black `#0C0C0C` editor background instead of the Islands `#191A1C`. It is available for VS Code, Zed and IntelliJ IDEA ([fulgora-dark-bg.icls](intellij/fulgora-dark-bg.icls)).
 
 ## Dark (Sunset)
 
 **Fulgora Dark (Sunset)** keeps the Fulgora Dark syntax colors and takes its appearance from Ghostty's **Sunset Drive** terminal theme: a `#0F0F1A` navy-black editor and window, a magenta accent, and the exact 16 ANSI colors in the integrated terminal. It is available for VS Code, Zed and IntelliJ IDEA ([fulgora-sunset-drive.icls](intellij/fulgora-sunset-drive.icls)).
+
+## Light (Sunset)
+
+**Fulgora Light (Sunset)** is the light counterpart of Fulgora Dark (Sunset): a `#F8F7FC` lavender-white editor, the same `#B03AB5` magenta accent, the Sunset Drive terminal hues darkened to at least 4.5:1, and the Fulgora Light (Soft) syntax colors. It is available for VS Code, Zed and IntelliJ IDEA ([fulgora-sunset-light.icls](intellij/fulgora-sunset-light.icls)).
 
 ## Dark (Soft) and Light (Soft)
 
@@ -52,6 +60,14 @@ Both are available for VS Code, Zed and IntelliJ IDEA ([fulgora-ai-dark.icls](in
 
 Static fields, interfaces and method kinds rely on semantic highlighting, so keep `editor.semanticHighlighting.enabled` at its default `configuredByTheme` value or set it to `true`.
 
+## Dark (Modern) and Light (Modern)
+
+**Fulgora Dark (Modern)** and **Fulgora Light (Modern)** use the window of VS Code's built-in **Dark Modern** and **Light Modern** themes with the Fulgora blue accent instead of Microsoft blue, and the Fulgora Dark (Soft) and Light (Soft) syntax, selection, caret row, diff, merge and terminal colors. The light variant uses an off-white `#FAFAF7` background instead of pure white.
+
+Markdown files use contrast-tuned VS Code syntax colors instead: in the dark variant blue `#69AFEA` headings and front matter keys and orange `#F39762` strings and inline code; in the light variant every color reaches at least 5.5:1.
+
+Zed and IntelliJ IDEA have no VS Code window to copy, so there the Modern variants are Dark (Soft) and Light (Soft) on the Modern editor background (`#1F1F1F` dark), with the Modern line number and indent guide colors and terminal. Zed also takes the Modern title bar, status bar, panel and tab colors. The Markdown colors are VS Code-only. IntelliJ schemes: [fulgora-modern-dark.icls](intellij/fulgora-modern-dark.icls), [fulgora-modern-light.icls](intellij/fulgora-modern-light.icls).
+
 ## File icons
 
 The extension also includes **Fulgora Icons**, built from IntelliJ's dark file and folder icons. Select it with `Preferences: File Icon Theme`. See [NOTICE](NOTICE) for attribution.
@@ -60,12 +76,12 @@ IntelliJ's module and source root folder markers depend on project structure, wh
 
 ## Zed
 
-The [`zed`](zed) directory contains a Zed version of the theme. To try it, run `zed: install dev extension` from the command palette, select the `zed` directory, then pick **Fulgora Dark**, **Fulgora Dark (Black)**, **Fulgora Dark (Soft)**, **Fulgora Dark (Sunset)** or **Fulgora Light (Soft)** with `theme selector: toggle`.
+The [`zed`](zed) directory contains a Zed version of the theme. To try it, run `zed: install dev extension` from the command palette, select the `zed` directory, then pick any of the nine Fulgora variants with `theme selector: toggle`.
 
 Zed themes can't set colors per language, so one color applies wherever a token type appears. For example, YAML keys use the property color and plain YAML values use the string color.
 
 ## Development
 
-Open this repository in VS Code and press `F5` to start an Extension Development Host, then select **Fulgora Dark**, **Fulgora Dark (Black)**, **Fulgora Dark (Soft)**, **Fulgora Dark (Sunset)** or **Fulgora Light (Soft)** with `Preferences: Color Theme`. Saving a file in `themes/` updates that window automatically.
+Open this repository in VS Code and press `F5` to start an Extension Development Host, then select **Fulgora Dark (Default)**, **Fulgora Light (Default)**, **Fulgora Dark (Black)**, **Fulgora Dark (Soft)**, **Fulgora Light (Soft)**, **Fulgora Dark (Sunset)**, **Fulgora Light (Sunset)** **Fulgora Dark (Modern)** or **Fulgora Light (Modern)** with `Preferences: Color Theme`. Saving a file in `themes/` updates that window automatically.
 
 **Enjoy!**
