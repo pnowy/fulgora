@@ -4,11 +4,27 @@ A theme extension for [Visual Studio Code](https://code.visualstudio.com/) desig
 
 ## Screenshots
 
-![YAML](screenshots/yaml.png)
+**Fulgora Dark (Default)** in YAML, TypeScript and Java:
 
-![Typescript](screenshots/typescript.png)
+![YAML in Fulgora Dark (Default)](screenshots/yaml.png)
 
-![Java](screenshots/java.png)
+![TypeScript in Fulgora Dark (Default)](screenshots/typescript.png)
+
+![Java in Fulgora Dark (Default)](screenshots/java.png)
+
+### All variants
+
+The same TypeScript file in each of the nine variants. Click an image to open it at full size.
+
+| Family  | Dark                                                                                       | Light                                                                                        |
+| ------- | ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- |
+| Default | ![Fulgora Dark (Default)](screenshots/variant-fulgora-dark-default.png)                    | ![Fulgora Light (Default)](screenshots/variant-fulgora-light-default.png)                    |
+| Black   | ![Fulgora Dark (Black)](screenshots/variant-fulgora-dark-black.png)                        | —                                                                                            |
+| Soft    | ![Fulgora Dark (Soft)](screenshots/variant-fulgora-dark-soft.png)                          | ![Fulgora Light (Soft)](screenshots/variant-fulgora-light-soft.png)                          |
+| Sunset  | ![Fulgora Dark (Sunset)](screenshots/variant-fulgora-dark-sunset.png)                      | ![Fulgora Light (Sunset)](screenshots/variant-fulgora-light-sunset.png)                      |
+| Modern  | ![Fulgora Dark (Modern)](screenshots/variant-fulgora-dark-modern.png)                      | ![Fulgora Light (Modern)](screenshots/variant-fulgora-light-modern.png)                      |
+
+The screenshots are rendered from the VS Code theme files with TextMate highlighting only. In VS Code, semantic highlighting adds more colors for fields, parameters and local variables in languages such as Java and TypeScript.
 
 ## Changelog
 
