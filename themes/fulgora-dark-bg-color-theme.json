@@ -196,8 +196,7 @@
         "keyword.operator.new",
         "keyword.operator.expression",
         "constant.language",
-        "variable.language",
-        "markup.heading"
+        "variable.language"
       ],
       "settings": {
         "foreground": "#FFA500"
@@ -785,13 +784,25 @@
       }
     },
     {
+      "name": "Markdown headings",
+      "scope": [
+        "markup.heading",
+        "markup.heading entity.name.section",
+        "punctuation.definition.heading.markdown"
+      ],
+      "settings": {
+        "foreground": "#4D9DE8",
+        "fontStyle": "bold"
+      }
+    },
+    {
       "name": "Markdown code",
       "scope": [
         "markup.inline.raw",
         "markup.fenced_code.block"
       ],
       "settings": {
-        "foreground": "#91CCFF"
+        "foreground": "#FFA500"
       }
     },
     {
