@@ -1,3 +1,15 @@
+## [0.6.0](https://github.com/pnowy/fulgora/compare/v0.5.0..v0.6.0) - 2026-11-19
+
+### ⛰️  Features
+
+- Bold Markdown headings and orange code in Default, Black and Soft variants ([#8](https://github.com/orhun/git-cliff/issues/8)) - ([d9af77b](https://github.com/pnowy/fulgora/commit/d9af77ba90f253ef20c726274ae73267466198ef))
+- [**breaking**] Add Light (Default), Light (Sunset) and Modern variants for VS Code, Zed and IntelliJ ([#6](https://github.com/orhun/git-cliff/issues/6)) - ([64bc754](https://github.com/pnowy/fulgora/commit/64bc754f64b4fa91c9b69d289998f9e3b62cd969))
+
+### 📚 Documentation
+
+- Regenerate screenshots and show all nine variants in README ([#7](https://github.com/orhun/git-cliff/issues/7)) - ([2f11bb9](https://github.com/pnowy/fulgora/commit/2f11bb9de0d6f5cf8c9b16d5ab01e772d1c68abd))
+
+
 ## [0.5.0](https://github.com/pnowy/fulgora/compare/v0.4.0..v0.5.0) - 2026-11-07
 
 ### 🚑 Bug Fixes
