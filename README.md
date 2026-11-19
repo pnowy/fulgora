@@ -84,6 +84,17 @@ Markdown files use contrast-tuned VS Code syntax colors instead: in the dark var
 
 Zed and IntelliJ IDEA have no VS Code window to copy, so there the Modern variants are Dark (Soft) and Light (Soft) on the Modern editor background (`#1F1F1F` dark), with the Modern line number and indent guide colors and terminal. Zed also takes the Modern title bar, status bar, panel and tab colors. The Markdown colors are VS Code-only. IntelliJ schemes: [fulgora-modern-dark.icls](intellij/fulgora-modern-dark.icls), [fulgora-modern-light.icls](intellij/fulgora-modern-light.icls).
 
+## Markdown headings and code
+
+The Default, Black and Soft variants use the same Markdown style in VS Code and Zed: bold headings in the regular text color and orange inline code and code blocks. The Sunset and Modern variants keep their own Markdown colors.
+
+| Variant                      | Headings (bold) | Inline code and code blocks |
+| ---------------------------- | --------------- | --------------------------- |
+| Dark (Default), Dark (Black) | `#FFFFFF`       | `#FFA500`                   |
+| Dark (Soft)                  | `#D5D6DB`       | `#FDA258`                   |
+| Light (Default)              | `#2B2C30`       | `#8E5B09`                   |
+| Light (Soft)                 | `#2B2C30`       | `#985100`                   |
+
 ## File icons
 
 The extension also includes **Fulgora Icons**, built from IntelliJ's dark file and folder icons. Select it with `Preferences: File Icon Theme`. See [NOTICE](NOTICE) for attribution.

@@ -310,10 +310,10 @@
             "color": "#9ACD9A"
           },
           "text.literal": {
-            "color": "#91CCFF"
+            "color": "#FFA500"
           },
           "title": {
-            "color": "#FFA500",
+            "color": "#FFFFFF",
             "font_weight": 700
           },
           "type": {
@@ -653,10 +653,10 @@
             "color": "#417042"
           },
           "text.literal": {
-            "color": "#316A98"
+            "color": "#8E5B09"
           },
           "title": {
-            "color": "#8E5B09",
+            "color": "#2B2C30",
             "font_weight": 700
           },
           "type": {
@@ -996,10 +996,10 @@
             "color": "#9ACD9A"
           },
           "text.literal": {
-            "color": "#91CCFF"
+            "color": "#FFA500"
           },
           "title": {
-            "color": "#FFA500",
+            "color": "#FFFFFF",
             "font_weight": 700
           },
           "type": {
@@ -1339,10 +1339,10 @@
             "color": "#AEDABF"
           },
           "text.literal": {
-            "color": "#8DCEEE"
+            "color": "#FDA258"
           },
           "title": {
-            "color": "#FDA258",
+            "color": "#D5D6DB",
             "font_weight": 700
           },
           "type": {
@@ -1682,10 +1682,10 @@
             "color": "#376048"
           },
           "text.literal": {
-            "color": "#236682"
+            "color": "#985100"
           },
           "title": {
-            "color": "#985100",
+            "color": "#2B2C30",
             "font_weight": 700
           },
           "type": {
