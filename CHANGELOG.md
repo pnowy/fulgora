@@ -1,3 +1,10 @@
+## [0.7.0](https://github.com/pnowy/fulgora/compare/v0.6.0..v0.7.0) - 2026-11-19
+
+### ⛰️  Features
+
+- [**breaking**] Remove Sunset variants; muted Markdown code colors and calmer links ([#9](https://github.com/orhun/git-cliff/issues/9)) - ([0261611](https://github.com/pnowy/fulgora/commit/02616112041ea39b6250cab7ffe090bb4b2b557b))
+
+
 ## [0.6.0](https://github.com/pnowy/fulgora/compare/v0.5.0..v0.6.0) - 2026-11-19
 
 ### ⛰️  Features
