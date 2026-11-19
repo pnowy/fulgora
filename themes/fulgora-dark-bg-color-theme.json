@@ -791,7 +791,7 @@
         "punctuation.definition.heading.markdown"
       ],
       "settings": {
-        "foreground": "#4D9DE8",
+        "foreground": "#FFFFFF",
         "fontStyle": "bold"
       }
     },

@@ -86,14 +86,14 @@ Zed and IntelliJ IDEA have no VS Code window to copy, so there the Modern varian
 
 ## Markdown headings and code
 
-The Default, Black and Soft variants follow the Modern Markdown pattern in VS Code and Zed: bold blue headings and orange inline code and code blocks. The Sunset and Modern variants keep their own Markdown colors.
+The Default, Black and Soft variants use the same Markdown style in VS Code and Zed: bold headings in the regular text color and orange inline code and code blocks. The Sunset and Modern variants keep their own Markdown colors.
 
 | Variant                      | Headings (bold) | Inline code and code blocks |
 | ---------------------------- | --------------- | --------------------------- |
-| Dark (Default), Dark (Black) | `#4D9DE8`       | `#FFA500`                   |
-| Dark (Soft)                  | `#4D9DE8`       | `#FDA258`                   |
-| Light (Default)              | `#1A45B8`       | `#8E5B09`                   |
-| Light (Soft)                 | `#1A45B8`       | `#985100`                   |
+| Dark (Default), Dark (Black) | `#FFFFFF`       | `#FFA500`                   |
+| Dark (Soft)                  | `#D5D6DB`       | `#FDA258`                   |
+| Light (Default)              | `#2B2C30`       | `#8E5B09`                   |
+| Light (Soft)                 | `#2B2C30`       | `#985100`                   |
 
 ## File icons
 
