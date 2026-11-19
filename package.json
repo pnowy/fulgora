@@ -19,8 +19,6 @@
     "theme",
     "dark theme",
     "light theme",
-    "sunset drive",
-    "synthwave",
     "fulgora",
     "devops",
     "kubernetes",
@@ -61,18 +59,6 @@
         "label": "Fulgora Light (Soft)",
         "uiTheme": "vs",
         "path": "./themes/fulgora-ai-light-color-theme.json"
-      },
-      {
-        "id": "Fulgora Dark (Sunset)",
-        "label": "Fulgora Dark (Sunset)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/fulgora-sunset-drive-color-theme.json"
-      },
-      {
-        "id": "Fulgora Light (Sunset)",
-        "label": "Fulgora Light (Sunset)",
-        "uiTheme": "vs",
-        "path": "./themes/fulgora-sunset-light-color-theme.json"
       },
       {
         "id": "Fulgora Dark (Modern)",

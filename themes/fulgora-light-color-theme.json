@@ -788,13 +788,21 @@
       }
     },
     {
-      "name": "Markdown code",
+      "name": "Markdown inline code",
       "scope": [
-        "markup.inline.raw",
+        "markup.inline.raw"
+      ],
+      "settings": {
+        "foreground": "#8A5E22"
+      }
+    },
+    {
+      "name": "Markdown code blocks",
+      "scope": [
         "markup.fenced_code.block"
       ],
       "settings": {
-        "foreground": "#8E5B09"
+        "foreground": "#4A4C52"
       }
     },
     {

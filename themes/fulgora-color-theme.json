@@ -796,13 +796,21 @@
       }
     },
     {
-      "name": "Markdown code",
+      "name": "Markdown inline code",
       "scope": [
-        "markup.inline.raw",
+        "markup.inline.raw"
+      ],
+      "settings": {
+        "foreground": "#E8A85C"
+      }
+    },
+    {
+      "name": "Markdown code blocks",
+      "scope": [
         "markup.fenced_code.block"
       ],
       "settings": {
-        "foreground": "#FFA500"
+        "foreground": "#C4C7CC"
       }
     },
     {
@@ -821,7 +829,7 @@
         "string.other.link"
       ],
       "settings": {
-        "foreground": "#0099FF"
+        "foreground": "#4A9FE0"
       }
     },
     // CSS
